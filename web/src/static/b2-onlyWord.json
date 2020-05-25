@@ -1,6 +1,4 @@
 [
-  "AIDS",
-  "ID",
   "abandon",
   "absolute",
   "absorb",
@@ -42,6 +40,7 @@
   "aggressive",
   "agriculture",
   "aid",
+  "aids",
   "aircraft",
   "alarm",
   "alien",
@@ -641,6 +640,7 @@
   "hurt",
   "hypothesis",
   "icon",
+  "id",
   "ideal",
   "identical",
   "illusion",
