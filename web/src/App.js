@@ -6,24 +6,36 @@ import TypingSection from './components/TypingSection'
 import FilterSection from './components/FilterSection'
 import DictionSection from './components/DictionSection'
 
-import color from './constant/color'
 
 const styles = {
   root: {
-    
+
   },
+  optionWrapper: {
+    width: 500,
+  },
+  optionHeader: {
+    width: 200,
+  },
+  optionBody: {
+  }
 };
 
 class App extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      typingMode: 'Random Word'
+      typingMode: 'Random Word',
+      difficultLevel: 3
     }
   }
 
   handleChangeMode = (event) => {
     this.setState({ typingMode: event.target.value })
+  }
+
+  handleChangeDifficult = (event, value) => {
+    this.setState({ difficultLevel: value })
   }
 
   render() {
@@ -32,7 +44,11 @@ class App extends React.Component {
     return (
       <div className={classes.root}>
         <Title></Title>
-        <FilterSection handleChangeMode={this.handleChangeMode} typingMode={typingMode}></FilterSection>
+          <FilterSection 
+          handleChangeMode={this.handleChangeMode} 
+          typingMode={typingMode}
+          handleChangeDifficult={this.handleChangeDifficult}/>     
+
         <TypingSection></TypingSection>
         <DictionSection></DictionSection>
       </div>
