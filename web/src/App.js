@@ -20,7 +20,12 @@ import c1List from './static/c1-onlyWord.json'
 
 
 
-const baseListFull = a1ListFull.concat(a2ListFull).concat(b1ListFull).concat(b2ListFull).concat(c1ListFull)
+const baseListFull = {}
+a1ListFull.forEach((word) => { baseListFull[word.word] = word })
+a2ListFull.forEach((word) => { baseListFull[word.word] = word })
+b1ListFull.forEach((word) => { baseListFull[word.word] = word })
+b2ListFull.forEach((word) => { baseListFull[word.word] = word })
+c1ListFull.forEach((word) => { baseListFull[word.word] = word })
 const maximumWordPerType = 200
 const baseList = [a1List, a2List, b1List, b2List, c1List]
 
@@ -46,7 +51,9 @@ class App extends React.Component {
       difficultLevel: 3,
       typedWord: [],
       currentWord: null,
+      currentWordPosition: -1,
       currentList: [],
+      typingState: 'waiting',
     }
   }
 
@@ -83,8 +90,7 @@ class App extends React.Component {
       }
       newListWord.push(newWord)
     }
-    console.log(newListWord)
-    this.setState({ currentList: newListWord, currentWord: 0})
+    this.setState({ currentList: newListWord, currentWordPosition: 0, currentWord: baseListFull[newListWord[0]]})
   } 
 
   handleChangeMode = (event) => {
@@ -97,16 +103,20 @@ class App extends React.Component {
 
   render() {
     const { classes } = this.props
-    const { typingMode } = this.state
+    const { typingMode, currentList, currentWord, currentWordPosition, typingState } = this.state
     return (
       <div className={classes.root}>
         <Title></Title>
-          <FilterSection 
+        <FilterSection 
           handleChangeMode={this.handleChangeMode} 
           typingMode={typingMode}
           handleChangeDifficult={this.handleChangeDifficult}/>     
 
-        <TypingSection></TypingSection>
+        <TypingSection
+          currentList={currentList}
+          currentWordPosition={currentWordPosition}
+          typingState={typingState}
+          />
         <DictionSection></DictionSection>
       </div>
     )

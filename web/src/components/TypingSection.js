@@ -1,7 +1,9 @@
 import React from 'react';
 import { withStyles } from '@material-ui/core/styles';
 
-import color from '../constant/color'
+import WordBoard from './WordBoard'
+import WordInputSection from './WordInputSection'
+import ResultTable from './ResultTable'
 
 const styles = {
   root: {
@@ -9,11 +11,24 @@ const styles = {
 };
 
 class TypingSection extends React.Component {
+  constructor(props) {
+    super(props)
+    // this.myRef1 = React.createRef();
+  }
+  
+  componentDidMount() {
+    // console.log(this.myRef1.current.getBoundingClientRect())
+  }
+
   render() {
-    const { classes } = this.props
+    const { classes, typingState, currentList, currentWordPostition  } = this.props
+    if (typingState === 'ending') {
+      return <ResultTable/>
+    }
     return (
       <div className={classes.root}>
-        TypingSection
+        <WordBoard currentList={currentList} currentWordPostition={currentWordPostition}/>
+        <WordInputSection />
       </div>
     )
   }
