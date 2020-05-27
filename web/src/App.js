@@ -33,14 +33,6 @@ const styles = {
   root: {
 
   },
-  optionWrapper: {
-    width: 500,
-  },
-  optionHeader: {
-    width: 200,
-  },
-  optionBody: {
-  }
 };
 
 class App extends React.Component {
@@ -51,7 +43,7 @@ class App extends React.Component {
       difficultLevel: 3,
       typedWord: [],
       currentWord: null,
-      currentWordPosition: -1,
+      currentWordPosition: 0,
       currentList: [],
       typingState: 'waiting',
     }

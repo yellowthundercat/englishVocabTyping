@@ -39,10 +39,11 @@ const styles = theme => ({
   },
   optionCard: {
     padding: 20,
+    marginBottom: 10,
   },
   optionWrapper: {
     width: 430,
-    margin: 'auto',
+    marginLeft: 'max(calc((100% - 820px)/2), 0px)',
   },
   optionButton: {
     marginBottom: 10,
