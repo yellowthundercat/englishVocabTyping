@@ -30,7 +30,7 @@ const styles = theme => ({
   },
   sliderwraper: {
     display: 'inline-block',
-    width: 270,
+    width: 250,
     marginLeft: 30,
   },
   difficultTitle: {
@@ -41,7 +41,7 @@ const styles = theme => ({
     padding: 20,
   },
   optionWrapper: {
-    width: 470,
+    width: 430,
     margin: 'auto',
   },
   optionButton: {
@@ -103,9 +103,16 @@ class FilterSectionCore extends React.Component {
                   />
                 </div>
               </div>
-              <div>
-                Press 1 for listening, 2 for English dictionary, 3 for Vietnam
-              </div>
+              <div>Press 1 for listening the current word</div>
+              <div>Press 2 to show English dictionary</div>
+              <div>Press 3 to show Vietnam dictionary</div>
+              <div>Press again to hide them</div>
+            </div>
+          }
+          {!isShowDifficulty &&
+            <div>
+              <div>Press 1 to show Vietnamese meaning</div>
+              <div>Press 1 again to hide it</div>
             </div>
           }
         </Card>
