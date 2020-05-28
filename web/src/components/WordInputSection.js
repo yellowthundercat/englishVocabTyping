@@ -40,8 +40,17 @@ const styles = {
 };
 
 class WordInputSection extends React.Component {
+  
+  generateTime = () => {
+    if (this.props.countDownTime === 60)
+      return '1:00'
+    if (this.props.countDownTime >= 10)
+      return '0:' + this.props.countDownTime
+    return '0:0' + this.props.countDownTime
+  }
+  
   render() {
-    const { classes, currentTypingWord, handleTyping, handleKeyTyping } = this.props
+    const { classes, currentTypingWord, handleTyping, handleKeyTyping, handleReload } = this.props
     return (
       <div className={classes.root}>
         {/* <Grid container className={classes.textWrapper}> */}
@@ -50,8 +59,10 @@ class WordInputSection extends React.Component {
             InputProps={{classes: {input: classes.inputFont}}}
             value={currentTypingWord} onKeyPress={handleKeyTyping}
             onChange={handleTyping} error={false}/>
-          <div className={classes.timer}>1:00</div>
-          <Button variant="contained" className={classes.reloadButton}>Reload</Button>
+          <div className={classes.timer}>{this.generateTime()}</div>
+          <Button variant="contained" className={classes.reloadButton} onClick={handleReload}>
+            Reload
+          </Button>
         </form>
         {/* </Grid> */}
       </div>

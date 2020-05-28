@@ -45,7 +45,6 @@ class App extends React.Component {
       currentWord: null,
       currentWordPosition: 0,
       currentList: [],
-      typingState: 'waiting',
     }
   }
 
@@ -93,9 +92,28 @@ class App extends React.Component {
     this.setState({ difficultLevel: value })
   }
 
+  goNextWord = (isCorrect) => {
+    const { typedWord, currentWord, currentWordPosition, currentList} = this.state
+    let newTypedWord = [...typedWord]
+    if (isCorrect)
+      newTypedWord.push(currentWord.word)
+    let newWordPosition = currentWordPosition + 1
+    let newWord = baseListFull[currentList[newWordPosition]]
+    this.setState({ typedWord: newTypedWord, currentWord: newWord,
+      currentWordPosition: newWordPosition})
+  }
+
+  handleStop = () => {
+
+  }
+
+  handleReload = () => {
+    
+  }
+
   render() {
     const { classes } = this.props
-    const { typingMode, currentList, currentWord, currentWordPosition, typingState } = this.state
+    const { typingMode, currentList, currentWord, currentWordPosition } = this.state
     return (
       <div className={classes.root}>
         <Title></Title>
@@ -107,7 +125,8 @@ class App extends React.Component {
         <TypingSection
           currentList={currentList}
           currentWordPosition={currentWordPosition}
-          typingState={typingState}
+          goNextWord={this.goNextWord}
+          handleStop={this.handleStop}
           />
         <DictionSection></DictionSection>
       </div>

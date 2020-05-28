@@ -38,7 +38,7 @@ const styles = {
     height: 34,
   },
   currentUncorrectWord: {
-    background: color.red,
+    background: color.brightRed,
     padding: 4,
     height: 34,
   },
@@ -53,6 +53,17 @@ class WordBoard extends React.Component {
     super(props)
     this.firstDisplayRef = React.createRef()
     this.currentWordRef = React.createRef()
+  }
+
+  componentDidUpdate(preProps) {
+    if (preProps.currentWordPosition !== this.props.currentWordPosition
+      && this.props.currentWordPosition !== this.props.firstDisplay) {
+      let firstTop = this.firstDisplayRef.current.getBoundingClientRect().top
+      let currentTop = this.currentWordRef.current.getBoundingClientRect().top
+      if (firstTop + 10 < currentTop) {
+        this.props.goNextLine()
+      }
+    }
   }
 
   generateListWord = () => {
