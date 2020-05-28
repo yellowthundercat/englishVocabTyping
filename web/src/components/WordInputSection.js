@@ -41,13 +41,15 @@ const styles = {
 
 class WordInputSection extends React.Component {
   render() {
-    const { classes } = this.props
+    const { classes, currentTypingWord, handleTyping, handleKeyTyping } = this.props
     return (
       <div className={classes.root}>
         {/* <Grid container className={classes.textWrapper}> */}
-        <form noValidate autoComplete="off" className={classes.textWrapper}>
+        <form className={classes.textWrapper} noValidate autoComplete="off" onSubmit={(event) => { event.preventDefault() }}>
           <TextField id="outlined-basic" variant="outlined" className={classes.textArea} autoFocus
-            InputProps={{classes: {input: classes.inputFont}}}/>
+            InputProps={{classes: {input: classes.inputFont}}}
+            value={currentTypingWord} onKeyPress={handleKeyTyping}
+            onChange={handleTyping} error={false}/>
           <div className={classes.timer}>1:00</div>
           <Button variant="contained" className={classes.reloadButton}>Reload</Button>
         </form>
