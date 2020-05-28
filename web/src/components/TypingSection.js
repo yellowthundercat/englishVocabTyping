@@ -18,11 +18,9 @@ class TypingSection extends React.Component {
       correctList: [],
       currentCorrect: true,
     }
-    // this.myRef1 = React.createRef();
   }
   
   componentDidMount() {
-    // console.log(this.myRef1.current.getBoundingClientRect())
   }
 
   goNextLine = () => {

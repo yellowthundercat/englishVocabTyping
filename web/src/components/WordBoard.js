@@ -10,12 +10,13 @@ const styles = {
     margin: 'auto',
     width: 800,
     padding: 10,
-    paddingRight: 2,
+    paddingRight: 5,
+    marginBottom: 10,
     fontSize: 27,
   },
   textWrapper: {
     width: 800,
-    height: 75,
+    height: 82,
     background: color.white,
     display: 'flex',
     flexFlow: 'row wrap',
@@ -24,21 +25,26 @@ const styles = {
   correctWord: {
     color: color.green,
     padding: 4,
+    height: 34,
   },
   uncorrectWord: {
     color: color.red,
     padding: 4,
+    height: 34,
   },
   currentWord: {
     background: color.lightGray,
     padding: 4,
+    height: 34,
   },
   currentUncorrectWord: {
     background: color.red,
     padding: 4,
+    height: 34,
   },
   normalWord: {
     padding: 4,
+    height: 34,
   }
 };
 
