@@ -29,6 +29,8 @@ c1ListFull.forEach((word) => { baseListFull[word.word] = word })
 const maximumWordPerType = 200
 const baseList = [a1List, a2List, b1List, b2List, c1List]
 
+const defaultCountTime = 60
+
 const styles = {
   root: {
 
@@ -45,7 +47,13 @@ class App extends React.Component {
       currentWord: null,
       currentWordPosition: 0,
       currentList: [],
-      typeDictionary: ''
+      typeDictionary: '',
+      firstDisplay: 0,
+      correctList: [],
+      currentCorrect: true,
+      currentTypingWord: '',
+      typingState: 'waiting',
+      countDownTime: defaultCountTime,
     }
   }
 
@@ -91,24 +99,58 @@ class App extends React.Component {
 
   handleChangeDifficult = (event, value) => {
     this.setState({ difficultLevel: value })
+    this.handleStop()
+    this.handleReload()
   }
 
   goNextWord = (isCorrect) => {
-    const { typedWord, currentWord, currentWordPosition, currentList} = this.state
+    const { typedWord, currentWord, currentWordPosition, currentList, correctList, currentTypingWord} = this.state
     let newTypedWord = [...typedWord]
     if (isCorrect)
       newTypedWord.push(currentWord.word)
     let newWordPosition = currentWordPosition + 1
     let newWord = baseListFull[currentList[newWordPosition]]
-    this.setState({ typedWord: newTypedWord, currentWord: newWord,
-      currentWordPosition: newWordPosition})
+    let isWordCorrect = currentWord.word === currentTypingWord
+    this.setState({
+      typedWord: newTypedWord,
+      currentWord: newWord,
+      currentWordPosition: newWordPosition,
+      currentTypingWord: '',
+      correctList: [...correctList, isWordCorrect],
+    })
+  }
+
+  goNextLine = () => {
+    this.setState({firstDisplay: this.state.currentWordPosition})
+  }
+
+  handleStart = () => {
+    this.setState({
+      typingState: 'running',
+      countDownTime: defaultCountTime,
+    })
+    this.timer = setInterval(() => {
+      let {countDownTime} = this.state
+      this.setState({countDownTime: countDownTime-1})
+      if (countDownTime === 1)
+          this.handleStop();
+    }, 1000)
   }
 
   handleStop = () => {
-
+    clearInterval(this.timer)
+    this.setState({typingState: 'ending'})
   }
 
   handleReload = () => {
+    this.setState({
+      firstDisplay: 0,
+      correctList: [],
+      currentCorrect: true,
+      currentTypingWord: '',
+      typingState: 'waiting',
+      countDownTime: defaultCountTime,
+    })
     this.generateListWord()
   }
 
@@ -151,9 +193,16 @@ class App extends React.Component {
     }
   }
 
+  handleUpdateTyping = (newWord, newCurrentCorrect) => {
+    this.setState({ currentTypingWord: newWord, currentCorrect: newCurrentCorrect })
+  }
+
   render() {
     const { classes } = this.props
-    const { typingMode, currentList, currentWord, currentWordPosition, typeDictionary } = this.state
+    const { typingMode, currentList, currentWord, currentWordPosition, typeDictionary,
+      firstDisplay, correctList, currentCorrect,
+      currentTypingWord, typingState, countDownTime,
+    } = this.state
     return (
       <div className={classes.root}>
         <Title></Title>
@@ -170,6 +219,15 @@ class App extends React.Component {
           handleStop={this.handleStop}
           handleReload={this.handleReload}
           handleHotKey={this.handleHotKey}
+          handleStart={this.handleStart}
+          goNextLine={this.goNextLine}
+          handleUpdateTyping={this.handleUpdateTyping}
+          firstDisplay={firstDisplay} 
+          correctList={correctList}
+          currentCorrect={currentCorrect}
+          currentTypingWord={currentTypingWord}
+          typingState={typingState}
+          countDownTime={countDownTime}
           />
         <DictionSection 
           currentWord={currentWord} 
