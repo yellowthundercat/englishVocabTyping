@@ -10,18 +10,10 @@ const styles = {
   },
 };
 
-const defaultCountTime = 60
-
 class TypingSection extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      firstDisplay: 0,
-      correctList: [],
-      currentCorrect: true,
-      currentTypingWord: '',
-      typingState: 'waiting',
-      countDownTime: defaultCountTime,
       wordCount: 0, 
       keyPress: 0,
       keyRight: 0,
@@ -32,47 +24,14 @@ class TypingSection extends React.Component {
   componentDidMount() {
   }
 
-  componentDidUpdate(prevProps) {
-    if (prevProps.typingMode !== this.props.typingMode && this.state.typingState === 'running') {
-      clearInterval(this.timer)
-      this.handleReload(false)
-    }
-  }
-
   handleStart = () => {
     this.setState({
-      typingState: 'running',
-      countDownTime: defaultCountTime,
       wordCount: 0, 
       keyPress: 0,
       keyRight: 0,
       totalWord: 0,
     })
-    this.timer = setInterval(() => {
-      let {countDownTime} = this.state
-      this.setState({countDownTime: countDownTime-1})
-      if (countDownTime === 1)
-          this.handleStop();
-    }, 1000)
-  }
-
-  handleStop = () => {
-    clearInterval(this.timer)
-    this.setState({typingState: 'ending'})
-    this.props.handleStop()
-  }
-
-  handleReload = (reloadWordList = true) => {
-    if (reloadWordList)
-      this.props.handleReload()
-    this.setState({
-      firstDisplay: 0,
-      correctList: [],
-      currentCorrect: true,
-      currentTypingWord: '',
-      typingState: 'waiting',
-      countDownTime: defaultCountTime,
-    })
+    this.props.handleStart()
   }
 
   handleTyping = (event) => {
@@ -89,13 +48,12 @@ class TypingSection extends React.Component {
     if (newWord !== word.slice(0, newWord.length)) {
       newCurrentCorrect = false
     } 
-    this.setState({ currentTypingWord: newWord, currentCorrect: newCurrentCorrect })
+    this.props.handleUpdateTyping(newWord, newCurrentCorrect)
   }
 
   handleKeyTyping = (event) => {
-    const { correctList, currentCorrect, typingState,
-      keyPress, keyRight, wordCount, totalWord } = this.state
-    const { currentList, currentWordPosition } = this.props
+    const { keyPress, keyRight, wordCount, totalWord } = this.state
+    const { currentList, currentWordPosition, currentCorrect, typingState, } = this.props
     // space or enter
     if (event.which === 13 || event.which === 32) {
       let newKeyRight = keyRight, newWordCount = wordCount
@@ -103,8 +61,7 @@ class TypingSection extends React.Component {
         newWordCount += 1
         newKeyRight += currentList[currentWordPosition].length
       }
-      this.setState({currentTypingWord: '',
-        correctList: [...correctList, currentCorrect],
+      this.setState({
         keyRight: newKeyRight,
         totalWord: totalWord + 1,
         wordCount: newWordCount,
@@ -127,18 +84,21 @@ class TypingSection extends React.Component {
     this.setState({ keyPress: keyPress+1})
   }
 
-  goNextLine = () => {
-    this.setState({firstDisplay: this.props.currentWordPosition})
+  handleMiddleReload = () => {
+    this.props.handleStop()
+    this.props.handleReload()
   }
 
+
   render() {
-    const { classes, currentList, currentWordPosition  } = this.props
-    const { firstDisplay, correctList, currentCorrect,
-      currentTypingWord, typingState, countDownTime,
-      keyPress, keyRight, wordCount, totalWord } = this.state
+    const { classes, currentList, currentWordPosition, 
+      firstDisplay, correctList, currentCorrect,
+      currentTypingWord, typingState, countDownTime,  
+    } = this.props
+    const { keyPress, keyRight, wordCount, totalWord } = this.state
     if (typingState === 'ending') {
       return <ResultTable result={{keyPress, keyRight, wordCount, totalWord}}
-        handleReload={this.handleReload}/>
+        handleReload={this.props.handleReload}/>
     }
     return (
       <div className={classes.root}>
@@ -148,14 +108,14 @@ class TypingSection extends React.Component {
           currentCorrect={currentCorrect}
           firstDisplay={firstDisplay} 
           currentWordPosition={currentWordPosition}
-          goNextLine={this.goNextLine}
+          goNextLine={this.props.goNextLine}
         />
         <WordInputSection 
           currentTypingWord={currentTypingWord}
           handleTyping={this.handleTyping}
           handleKeyTyping={this.handleKeyTyping}
           countDownTime={countDownTime}
-          handleReload={this.handleReload}
+          handleReload={this.handleMiddleReload}
           />
       </div>
     )
