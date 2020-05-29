@@ -52,6 +52,10 @@ const styles = {
   volume: {
     marginLeft: 10,
     marginTop: -5,
+  },
+  sentence: {
+    fontSize: 20,
+    margin: 10,
   }
 };
 
@@ -77,15 +81,20 @@ class DictionSection extends React.Component {
   render() {
     const { classes, typeDictionary, currentWord, typingMode } = this.props
     
-    if (!typeDictionary || !currentWord) {
+    if (!typeDictionary || !currentWord ||
+      (typingMode === 'Full Sentence' && typeDictionary !== 'Vietnam')) {
       return (<div></div>)
     }
-
     if (typingMode === 'Full Sentence') {
       return (
-        <div className={classes.root}>
-          DictionSection
-        </div>
+      <div className={classes.root}>
+        <Card className={classes.wrapper}>
+          <CardContent>
+            <div className={classes.sentence}>{currentWord.eng}</div>
+            <div className={classes.sentence}>{currentWord.viet}</div>
+          </CardContent>
+        </Card>
+      </div>
       )
     }
 

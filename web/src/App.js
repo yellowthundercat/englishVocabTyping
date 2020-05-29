@@ -18,7 +18,7 @@ import b1List from './static/b1-onlyWord.json'
 import b2List from './static/b2-onlyWord.json'
 import c1List from './static/c1-onlyWord.json'
 
-
+import convertObjectToArray from './helper/helper'
 
 const baseListFull = {}
 a1ListFull.forEach((word) => { baseListFull[word.word] = word })
@@ -26,10 +26,13 @@ a2ListFull.forEach((word) => { baseListFull[word.word] = word })
 b1ListFull.forEach((word) => { baseListFull[word.word] = word })
 b2ListFull.forEach((word) => { baseListFull[word.word] = word })
 c1ListFull.forEach((word) => { baseListFull[word.word] = word })
-const maximumWordPerType = 200
+const maximumWordPerType = 300
 const baseList = [a1List, a2List, b1List, b2List, c1List]
 
-const defaultCountTime = 60
+const defaultCountTime = 10
+const defaultNumberSetSentence = 99
+
+var baseSentenceList = []
 
 const styles = {
   root: {
@@ -67,7 +70,7 @@ class App extends React.Component {
     if (end === null) {
       newWord = baseList[start][Math.floor(Math.random() * baseList[start].length)]
     } else {
-      let level = Math.floor(Math.random() * (end+1))
+      let level = Math.floor(Math.random() * (end + 1))
       newWord = baseList[level][Math.floor(Math.random() * baseList[level].length)]
     }
     // check dup
@@ -80,21 +83,51 @@ class App extends React.Component {
 
   generateListWord = () => {
     let newListWord = []
-    for (let i=1; i<=maximumWordPerType; i++) {
+    for (let i = 1; i <= maximumWordPerType; i++) {
       let isCurrentLevel = Math.floor(Math.random() * 2)
       let newWord = 'across'
       if (isCurrentLevel === 1) {
-        newWord = this.getRandomWord(this.state.difficultLevel-1)
+        newWord = this.getRandomWord(this.state.difficultLevel - 1)
       } else {
-        newWord = this.getRandomWord(0, this.state.difficultLevel-1)
+        newWord = this.getRandomWord(0, this.state.difficultLevel - 1)
       }
       newListWord.push(newWord)
     }
-    this.setState({ currentList: newListWord, currentWordPosition: 0, currentWord: baseListFull[newListWord[0]]})
-  } 
+    this.setState({ currentList: newListWord, currentWordPosition: 0, currentWord: baseListFull[newListWord[0]] })
+  }
+
+  getRandomSentence = (sentenceList, usedPosition) => {
+    let sentencePosition = Math.floor(Math.random() * (sentenceList.length-2))
+    if (usedPosition[sentencePosition] === true)
+      return this.getRandomSentence(sentenceList, usedPosition)
+    return sentencePosition
+  }
+
+  generateListSentence = () => {
+    let sentenceSet = Math.floor(Math.random() * defaultNumberSetSentence)
+    import(`./static/fullSentence/text${sentenceSet}.json`).then(sentenceList => {
+      sentenceList = convertObjectToArray(sentenceList)
+      let newCurrentList = [], usedPosition = {}
+      baseSentenceList = []
+      while (newCurrentList.length < maximumWordPerType) {
+        let sentencePosition = this.getRandomSentence(sentenceList, usedPosition)
+        usedPosition[sentencePosition] = true
+        if (!sentenceList[sentencePosition] || !sentenceList[sentencePosition][1] || 
+          !sentenceList[sentencePosition][1].eng) continue
+        newCurrentList = newCurrentList.concat(sentenceList[sentencePosition][1].eng.split(' '))
+        while (newCurrentList.length > baseSentenceList.length) {
+          baseSentenceList.push(sentenceList[sentencePosition][1])
+        }
+      }
+      this.setState({ currentList: newCurrentList, currentWordPosition: 0, currentWord: baseSentenceList[0] })
+    })
+  }
 
   handleChangeMode = (event) => {
-    this.setState({ typingMode: event.target.value })
+    this.setState({ typingMode: event.target.value }, () => {
+      this.handleStop()
+      this.handleReload()
+    })
   }
 
   handleChangeDifficult = (event, value) => {
@@ -104,24 +137,38 @@ class App extends React.Component {
   }
 
   goNextWord = (isCorrect) => {
-    const { typedWord, currentWord, currentWordPosition, currentList, correctList, currentTypingWord} = this.state
-    let newTypedWord = [...typedWord]
-    if (isCorrect)
-      newTypedWord.push(currentWord.word)
+    const { typedWord, currentWord, currentWordPosition,
+      currentList, correctList, currentTypingWord, typingMode } = this.state
+
     let newWordPosition = currentWordPosition + 1
-    let newWord = baseListFull[currentList[newWordPosition]]
-    let isWordCorrect = currentWord.word === currentTypingWord
-    this.setState({
-      typedWord: newTypedWord,
-      currentWord: newWord,
-      currentWordPosition: newWordPosition,
-      currentTypingWord: '',
-      correctList: [...correctList, isWordCorrect],
-    })
+    if (newWordPosition >= currentList.length) return
+    let isWordCorrect = currentList[currentWordPosition] === currentTypingWord
+
+    if (typingMode === 'Random Word') {
+      let newTypedWord = [...typedWord]
+      if (isCorrect)
+        newTypedWord.push(currentWord.word)  
+      let newWord = baseListFull[currentList[newWordPosition]]
+      this.setState({
+        typedWord: newTypedWord,
+        currentWord: newWord,
+        currentWordPosition: newWordPosition,
+        currentTypingWord: '',
+        correctList: [...correctList, isWordCorrect],
+      })
+    } else {
+      let newWord = baseSentenceList[newWordPosition]
+      this.setState({
+        currentWord: newWord,
+        currentWordPosition: newWordPosition,
+        currentTypingWord: '',
+        correctList: [...correctList, isWordCorrect],
+      })
+    }
   }
 
   goNextLine = () => {
-    this.setState({firstDisplay: this.state.currentWordPosition})
+    this.setState({ firstDisplay: this.state.currentWordPosition })
   }
 
   handleStart = () => {
@@ -130,19 +177,20 @@ class App extends React.Component {
       countDownTime: defaultCountTime,
     })
     this.timer = setInterval(() => {
-      let {countDownTime} = this.state
-      this.setState({countDownTime: countDownTime-1})
+      let { countDownTime } = this.state
+      this.setState({ countDownTime: countDownTime - 1 })
       if (countDownTime === 1)
-          this.handleStop();
+        this.handleStop();
     }, 1000)
   }
 
   handleStop = () => {
     clearInterval(this.timer)
-    this.setState({typingState: 'ending'})
+    this.setState({ typingState: 'ending' })
   }
 
   handleReload = () => {
+    let typingMode = this.state.typingMode
     this.setState({
       firstDisplay: 0,
       correctList: [],
@@ -150,12 +198,17 @@ class App extends React.Component {
       currentTypingWord: '',
       typingState: 'waiting',
       countDownTime: defaultCountTime,
+      typeDictionary: '',
     })
-    this.generateListWord()
+    if (typingMode === 'Random Word') {
+      this.generateListWord()
+    } else {
+      this.generateListSentence()
+    }
   }
 
   playSound = () => {
-    const {currentWord} = this.state
+    const { currentWord } = this.state
     if (currentWord && currentWord.word) {
       import(`./static/soundWebm/${currentWord.word}.webm`).then(soundModule => {
         console.log(soundModule.default)
@@ -206,10 +259,10 @@ class App extends React.Component {
     return (
       <div className={classes.root}>
         <Title></Title>
-        <FilterSection 
-          handleChangeMode={this.handleChangeMode} 
+        <FilterSection
+          handleChangeMode={this.handleChangeMode}
           typingMode={typingMode}
-          handleChangeDifficult={this.handleChangeDifficult}/>     
+          handleChangeDifficult={this.handleChangeDifficult} />
 
         <TypingSection
           currentList={currentList}
@@ -222,16 +275,16 @@ class App extends React.Component {
           handleStart={this.handleStart}
           goNextLine={this.goNextLine}
           handleUpdateTyping={this.handleUpdateTyping}
-          firstDisplay={firstDisplay} 
+          firstDisplay={firstDisplay}
           correctList={correctList}
           currentCorrect={currentCorrect}
           currentTypingWord={currentTypingWord}
           typingState={typingState}
           countDownTime={countDownTime}
-          />
-        <DictionSection 
-          currentWord={currentWord} 
-          typeDictionary={typeDictionary} 
+        />
+        <DictionSection
+          currentWord={currentWord}
+          typeDictionary={typeDictionary}
           typingMode={typingMode}
           playSound={this.playSound}
         />

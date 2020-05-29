@@ -84,7 +84,7 @@ class TypingSection extends React.Component {
     this.setState({ keyPress: keyPress+1})
   }
 
-  handleMiddlReload = () => {
+  handleMiddleReload = () => {
     this.props.handleStop()
     this.props.handleReload()
   }
@@ -115,7 +115,7 @@ class TypingSection extends React.Component {
           handleTyping={this.handleTyping}
           handleKeyTyping={this.handleKeyTyping}
           countDownTime={countDownTime}
-          handleReload={this.props.handleMiddlReload}
+          handleReload={this.handleMiddleReload}
           />
       </div>
     )
