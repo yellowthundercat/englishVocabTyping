@@ -45,6 +45,7 @@ class App extends React.Component {
       currentWord: null,
       currentWordPosition: 0,
       currentList: [],
+      typeDictionary: ''
     }
   }
 
@@ -108,12 +109,51 @@ class App extends React.Component {
   }
 
   handleReload = () => {
-    
+    this.generateListWord()
+  }
+
+  playSound = () => {
+    const {currentWord} = this.state
+    if (currentWord && currentWord.word) {
+      import(`./static/soundWebm/${currentWord.word}.webm`).then(soundModule => {
+        console.log(soundModule.default)
+        let audio = new Audio(soundModule.default)
+        audio.play()
+      })
+    }
+  }
+
+  handleHotKey = (keyType) => {
+    const { typingMode, typeDictionary } = this.state
+    // typingMode
+    if (typingMode === 'Random Word') {
+      if (keyType === '1') {
+        this.playSound()
+      }
+      if (keyType === '2') {
+        if (typeDictionary !== 'English')
+          this.setState({ typeDictionary: 'English' })
+        else this.setState({ typeDictionary: '' })
+      }
+      if (keyType === '3') {
+        if (typeDictionary !== 'Vietnam')
+          this.setState({ typeDictionary: 'Vietnam' })
+        else this.setState({ typeDictionary: '' })
+      }
+    }
+
+    if (typingMode === 'Full Sentence') {
+      if (keyType === '1') {
+        if (typeDictionary !== 'Vietnam')
+          this.setState({ typeDictionary: 'Vietnam' })
+        else this.setState({ typeDictionary: '' })
+      }
+    }
   }
 
   render() {
     const { classes } = this.props
-    const { typingMode, currentList, currentWord, currentWordPosition } = this.state
+    const { typingMode, currentList, currentWord, currentWordPosition, typeDictionary } = this.state
     return (
       <div className={classes.root}>
         <Title></Title>
@@ -125,10 +165,18 @@ class App extends React.Component {
         <TypingSection
           currentList={currentList}
           currentWordPosition={currentWordPosition}
+          typingMode={typingMode}
           goNextWord={this.goNextWord}
           handleStop={this.handleStop}
+          handleReload={this.handleReload}
+          handleHotKey={this.handleHotKey}
           />
-        <DictionSection></DictionSection>
+        <DictionSection 
+          currentWord={currentWord} 
+          typeDictionary={typeDictionary} 
+          typingMode={typingMode}
+          playSound={this.playSound}
+        />
       </div>
     )
   }

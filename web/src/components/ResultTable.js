@@ -61,6 +61,15 @@ const styles = {
 };
 
 class ResultTable extends React.Component {
+  constructor(props) {
+    super(props)
+    this.buttonReloadRef = React.createRef()
+  }
+
+  componentDidMount() { 
+    this.buttonReloadRef.current.focus();
+  }
+
   render() {
     const { classes, result, handleReload } = this.props
     const { keyPress, keyRight, wordCount, totalWord } = result
@@ -84,12 +93,12 @@ class ResultTable extends React.Component {
             </div>
             <div className={classes.resultElementWrapper}>
               <span className={classes.normalText}>Wrong words:</span>
-              <span className={classes.redText}>{totalWord}</span>
+              <span className={classes.redText}>{totalWord - wordCount}</span>
             </div>
           </CardContent>
           <CardActions className={classes.buttonWrapper}>
             <Button variant="contained" className={classes.reloadButton}
-              onClick={handleReload} tabindex="-1">
+              onClick={handleReload} ref={this.buttonReloadRef} disableFocusRipple>
               Reload
             </Button>
           </CardActions>

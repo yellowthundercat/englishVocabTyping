@@ -10,7 +10,7 @@ const styles = {
   },
 };
 
-const defaultCountTime = 5
+const defaultCountTime = 60
 
 class TypingSection extends React.Component {
   constructor(props) {
@@ -30,6 +30,13 @@ class TypingSection extends React.Component {
   }
   
   componentDidMount() {
+  }
+
+  componentDidUpdate(prevProps) {
+    if (prevProps.typingMode !== this.props.typingMode && this.state.typingState === 'running') {
+      clearInterval(this.timer)
+      this.handleReload(false)
+    }
   }
 
   handleStart = () => {
@@ -55,13 +62,26 @@ class TypingSection extends React.Component {
     this.props.handleStop()
   }
 
-  handleReload = () => {
-    console.log('reload')
+  handleReload = (reloadWordList = true) => {
+    if (reloadWordList)
+      this.props.handleReload()
+    this.setState({
+      firstDisplay: 0,
+      correctList: [],
+      currentCorrect: true,
+      currentTypingWord: '',
+      typingState: 'waiting',
+      countDownTime: defaultCountTime,
+    })
   }
 
   handleTyping = (event) => {
     const { currentList, currentWordPosition } = this.props
     let newWord = event.target.value
+    let lastCharater = newWord[newWord.length - 1]
+    if (lastCharater >= '0' && lastCharater <= '9') {
+      return
+    }
     if (newWord === ' ' || newWord === '\n')
       newWord = ''
     let word = currentList[currentWordPosition]
@@ -93,8 +113,10 @@ class TypingSection extends React.Component {
       })
       return
     }
+
+    // dictionary
     if (event.key >= '0' && event.key <= '9') {
-      console.log('number')
+      this.props.handleHotKey(event.key)
       return
     }
 
