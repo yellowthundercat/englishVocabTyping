@@ -13,6 +13,7 @@ import Slider from '@material-ui/core/Slider';
 import Card from '@material-ui/core/Card';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Collapse from '@material-ui/core/Collapse';
+import Checkbox from '@material-ui/core/Checkbox'
 
 
 const styles = theme => ({
@@ -89,7 +90,8 @@ class FilterSectionCore extends React.Component {
     return value + 'level'
   }
   render() {
-    const { classes, handleChangeMode, typingMode, handleChangeDifficult } = this.props
+    const { classes, handleChangeMode, typingMode,
+      handleChangeDifficult } = this.props
     let isShowDifficulty = typingMode === 'Random Word'
     return (   
         <Card className={classes.optionCard}>
@@ -132,6 +134,7 @@ class FilterSectionCore extends React.Component {
                   />
                 </div>
               </div>
+              <div>In input box:</div>
               <div>Press 1 for listening the current word</div>
               <div>Press 2 to show English dictionary</div>
               <div>Press 3 to show Vietnam dictionary</div>
@@ -140,6 +143,7 @@ class FilterSectionCore extends React.Component {
           }
           {!isShowDifficulty &&
             <div>
+              <div>In input box:</div>
               <div>Press 1 to show Vietnamese meaning</div>
               <div>Press 1 again to hide it</div>
             </div>

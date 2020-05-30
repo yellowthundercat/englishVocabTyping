@@ -66,7 +66,7 @@ class WordInputSection extends React.Component {
         <form className={classes.textWrapper} noValidate autoComplete="off" onSubmit={(event) => { event.preventDefault() }}>
           <TextField id="outlined-basic" variant="outlined" className={classes.textArea} autoFocus
             InputProps={{classes: {input: classes.inputFont}}}
-            value={currentTypingWord} onKeyPress={handleKeyTyping}
+            value={currentTypingWord} onKeyDown={handleKeyTyping}
             onChange={handleTyping} error={false}/>
           <div className={classes.timer}>{this.generateTime()}</div>
           <Button variant="contained" className={classes.reloadButton} onClick={handleReload}>

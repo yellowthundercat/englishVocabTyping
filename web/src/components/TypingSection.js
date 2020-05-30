@@ -27,31 +27,22 @@ class TypingSection extends React.Component {
   }
 
   handleTyping = (event) => {
-    const { currentList, currentWordPosition } = this.props
+    const { currentList, currentWordPosition, currentCorrect } = this.props
+    const { keyRight, wordCount, totalWord } = this.state
     let newWord = event.target.value
     let lastCharater = newWord[newWord.length - 1]
-    if (lastCharater >= '0' && lastCharater <= '9') {
-      return
-    }
-    if (newWord === ' ' || newWord === '\n')
-      newWord = ''
-    let word = currentList[currentWordPosition]
-    let newCurrentCorrect = true
-    if (newWord !== word.slice(0, newWord.length)) {
-      newCurrentCorrect = false
-    } 
-    this.props.handleUpdateTyping(newWord, newCurrentCorrect)
-  }
-
-  handleKeyTyping = (event) => {
-    const { keyPress, keyRight, wordCount, totalWord } = this.state
-    const { currentList, currentWordPosition, currentCorrect, typingState, } = this.props
-    // space or enter
-    if (event.which === 13 || event.which === 32) {
+    for (const element of newWord) {
+      if (element >= '0' && element <= '9') {
+        this.props.handleHotKey(element)
+        return
+      }
+    };
+    // next word
+    if (lastCharater === ' '){
       let newKeyRight = keyRight, newWordCount = wordCount
       if (currentCorrect) {
         newWordCount += 1
-        newKeyRight += currentList[currentWordPosition].length
+        newKeyRight += currentList[currentWordPosition].length + 1
       }
       this.setState({
         keyRight: newKeyRight,
@@ -62,11 +53,21 @@ class TypingSection extends React.Component {
       return
     }
 
+    let word = currentList[currentWordPosition]
+    let newCurrentCorrect = true
+    if (newWord !== word.slice(0, newWord.length)) {
+      newCurrentCorrect = false
+    } 
+    this.props.handleUpdateTyping(newWord, newCurrentCorrect)
+  }
+
+  handleKeyTyping = (event) => {
+    const { keyPress } = this.state
+    const { typingState } = this.props
     // dictionary
     if (event.key >= '0' && event.key <= '9') {
       return
     }
-
     if (typingState === 'waiting') {
       this.handleStart()
       return 

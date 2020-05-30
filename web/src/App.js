@@ -56,12 +56,7 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    document.addEventListener("keydown", this.handleHotKey, false);
     this.generateListWord();
-  }
-
-  componentWillUnmount(){
-    document.removeEventListener("keydown", this.handleHotKey, false);
   }
 
   getRandomWord = (start, end = null) => {
@@ -153,6 +148,7 @@ class App extends React.Component {
         currentWord: newWord,
         currentWordPosition: newWordPosition,
         currentTypingWord: '',
+        currentCorrect: true,
         correctList: [...correctList, isWordCorrect],
       })
     } else {
@@ -161,6 +157,7 @@ class App extends React.Component {
         currentWord: newWord,
         currentWordPosition: newWordPosition,
         currentTypingWord: '',
+        currentCorrect: true,
         correctList: [...correctList, isWordCorrect],
       })
     }
@@ -220,8 +217,7 @@ class App extends React.Component {
     }
   }
 
-  handleHotKey = (event) => {
-    let keyType = event.key
+  handleHotKey = (keyType) => {
     const { typingMode, typeDictionary } = this.state
     // typingMode
     if (typingMode === 'Random Word') {
@@ -256,7 +252,7 @@ class App extends React.Component {
   render() {
     const { typingMode, currentList, currentWord, currentWordPosition, typeDictionary,
       firstDisplay, correctList, currentCorrect,
-      currentTypingWord, typingState, countDownTime,
+      currentTypingWord, typingState, countDownTime
     } = this.state
     return (
       <div>
