@@ -130,8 +130,9 @@ class App extends React.Component {
   }
 
   handleChangeDifficult = (event, value) => {
-    this.setState({ difficultLevel: value })
-    this.handleReload()
+    this.setState({ difficultLevel: value }, () => {
+      this.handleReload()
+    })
   }
 
   goNextWord = (isCorrect) => {
@@ -211,8 +212,10 @@ class App extends React.Component {
     const { currentWord } = this.state
     if (currentWord && currentWord.word) {
       import(`./static/soundWebm/${currentWord.word}.webm`).then(soundModule => {
-        let audio = new Audio(soundModule.default)
-        audio.play()
+        if (soundModule && soundModule.default) {
+          let audio = new Audio(soundModule.default)
+          audio.play()
+        }
       })
     }
   }

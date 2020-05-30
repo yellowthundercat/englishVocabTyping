@@ -1,12 +1,9 @@
 import React from 'react';
-import { withStyles } from '@material-ui/core/styles';
 
 import WordBoard from './WordBoard'
 import WordInputSection from './WordInputSection'
 import ResultTable from './ResultTable'
 
-const styles = {
-};
 
 class TypingSection extends React.Component {
   constructor(props) {
@@ -22,7 +19,7 @@ class TypingSection extends React.Component {
   handleStart = () => {
     this.setState({
       wordCount: 0, 
-      keyPress: 0,
+      keyPress: 1,
       keyRight: 0,
       totalWord: 0,
     })
@@ -60,9 +57,8 @@ class TypingSection extends React.Component {
         keyRight: newKeyRight,
         totalWord: totalWord + 1,
         wordCount: newWordCount,
-      }, () => {
-        this.props.goNextWord(currentCorrect)
       })
+      this.props.goNextWord(currentCorrect)
       return
     }
 
@@ -73,13 +69,14 @@ class TypingSection extends React.Component {
 
     if (typingState === 'waiting') {
       this.handleStart()
+      return 
     }
 
     this.setState({ keyPress: keyPress+1})
   }
 
   render() {
-    const { classes, currentList, currentWordPosition, 
+    const { currentList, currentWordPosition, 
       firstDisplay, correctList, currentCorrect,
       currentTypingWord, typingState, countDownTime,  
     } = this.props
@@ -110,4 +107,4 @@ class TypingSection extends React.Component {
   }
 }
 
-export default withStyles(styles)(TypingSection);
+export default TypingSection;
