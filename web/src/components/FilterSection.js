@@ -13,7 +13,6 @@ import Slider from '@material-ui/core/Slider';
 import Card from '@material-ui/core/Card';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Collapse from '@material-ui/core/Collapse';
-import Checkbox from '@material-ui/core/Checkbox'
 
 
 const styles = theme => ({

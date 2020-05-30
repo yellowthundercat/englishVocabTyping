@@ -69,14 +69,7 @@ const styles = theme => ({
 });
 
 class ResultTable extends React.Component {
-  constructor(props) {
-    super(props)
-    this.buttonReloadRef = React.createRef()
-  }
 
-  componentDidMount() { 
-    this.buttonReloadRef.current.focus();
-  }
 
   render() {
     const { classes, result, handleReload } = this.props
@@ -106,7 +99,7 @@ class ResultTable extends React.Component {
           </CardContent>
           <CardActions className={classes.buttonWrapper}>
             <Button variant="contained" className={classes.reloadButton}
-              onClick={handleReload} ref={this.buttonReloadRef} disableFocusRipple>
+              onClick={handleReload} disableFocusRipple>
               Reload
             </Button>
           </CardActions>
