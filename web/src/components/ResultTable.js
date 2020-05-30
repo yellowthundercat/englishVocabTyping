@@ -9,8 +9,6 @@ import Button from '@material-ui/core/Button'
 import color from '../constant/color'
 
 const styles = theme => ({
-  root: {
-  },
   wrapper: {
     width: 320,
     margin: 'auto',
@@ -54,9 +52,6 @@ const styles = theme => ({
       fontSize: 21,
     },
   },
-  normalText: {
-
-  }, 
   greenText: {
     color: color.green,
     fontWeight: 500,
@@ -87,7 +82,7 @@ class ResultTable extends React.Component {
     const { classes, result, handleReload } = this.props
     const { keyPress, keyRight, wordCount, totalWord } = result
     return (
-      <div className={classes.root}>
+      <div>
         <Card className={classes.wrapper}>
           <CardContent>
             <div className={classes.resultTitle}>Congratulations!</div>

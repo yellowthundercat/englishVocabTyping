@@ -19,9 +19,6 @@ const styles = theme => ({
     width: 'min(500px, 90%)',
     margin: 'auto',
   },
-  title: {
-
-  },
   word: {
     fontSize: 30,
     color: color.darkBlue,

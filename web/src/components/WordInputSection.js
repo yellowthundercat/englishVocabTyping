@@ -7,8 +7,6 @@ import Button from '@material-ui/core/Button';
 import color from '../constant/color'
 
 const styles = theme => ({
-  root: {
-  },
   textWrapper: {
     width: 'min(750px, 90%)',
     display: 'flex',
@@ -19,7 +17,6 @@ const styles = theme => ({
     flexGrow: 10,
     [theme.breakpoints.down('xs')]: {
       flexGrow: 2,
-      // background: 'red',
     },
   },
   inputFont: {
@@ -31,7 +28,6 @@ const styles = theme => ({
     },
   },
   timer: {
-    // width: 50,
     flexGrow: 1,
     fontSize: 30,
     margin: 'auto',
@@ -66,8 +62,7 @@ class WordInputSection extends React.Component {
   render() {
     const { classes, currentTypingWord, handleTyping, handleKeyTyping, handleReload } = this.props
     return (
-      <div className={classes.root}>
-        {/* <Grid container className={classes.textWrapper}> */}
+      <div>
         <form className={classes.textWrapper} noValidate autoComplete="off" onSubmit={(event) => { event.preventDefault() }}>
           <TextField id="outlined-basic" variant="outlined" className={classes.textArea} autoFocus
             InputProps={{classes: {input: classes.inputFont}}}
@@ -78,7 +73,6 @@ class WordInputSection extends React.Component {
             Reload
           </Button>
         </form>
-        {/* </Grid> */}
       </div>
     )
   }

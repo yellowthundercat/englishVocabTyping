@@ -1,5 +1,4 @@
 import React from 'react';
-import { withStyles } from '@material-ui/core/styles';
 
 import Title from './components/Title'
 import TypingSection from './components/TypingSection'
@@ -26,6 +25,7 @@ a2ListFull.forEach((word) => { baseListFull[word.word] = word })
 b1ListFull.forEach((word) => { baseListFull[word.word] = word })
 b2ListFull.forEach((word) => { baseListFull[word.word] = word })
 c1ListFull.forEach((word) => { baseListFull[word.word] = word })
+
 const maximumWordPerType = 300
 const baseList = [a1List, a2List, b1List, b2List, c1List]
 
@@ -34,11 +34,6 @@ const defaultNumberSetSentence = 99
 
 var baseSentenceList = []
 
-const styles = {
-  root: {
-
-  },
-};
 
 class App extends React.Component {
   constructor(props) {
@@ -130,14 +125,12 @@ class App extends React.Component {
 
   handleChangeMode = (event) => {
     this.setState({ typingMode: event.target.value }, () => {
-      this.handleStop()
       this.handleReload()
     })
   }
 
   handleChangeDifficult = (event, value) => {
     this.setState({ difficultLevel: value })
-    this.handleStop()
     this.handleReload()
   }
 
@@ -195,6 +188,7 @@ class App extends React.Component {
   }
 
   handleReload = () => {
+    clearInterval(this.timer)
     let typingMode = this.state.typingMode
     this.setState({
       firstDisplay: 0,
@@ -204,12 +198,13 @@ class App extends React.Component {
       typingState: 'waiting',
       countDownTime: defaultCountTime,
       typeDictionary: '',
+    }, () => {
+      if (typingMode === 'Random Word') {
+        this.generateListWord()
+      } else {
+        this.generateListSentence()
+      }
     })
-    if (typingMode === 'Random Word') {
-      this.generateListWord()
-    } else {
-      this.generateListSentence()
-    }
   }
 
   playSound = () => {
@@ -256,13 +251,12 @@ class App extends React.Component {
   }
 
   render() {
-    const { classes } = this.props
     const { typingMode, currentList, currentWord, currentWordPosition, typeDictionary,
       firstDisplay, correctList, currentCorrect,
       currentTypingWord, typingState, countDownTime,
     } = this.state
     return (
-      <div className={classes.root}>
+      <div>
         <Title></Title>
         <FilterSection
           handleChangeMode={this.handleChangeMode}
@@ -298,4 +292,4 @@ class App extends React.Component {
   }
 }
 
-export default withStyles(styles)(App);
+export default App;

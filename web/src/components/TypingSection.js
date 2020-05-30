@@ -6,8 +6,6 @@ import WordInputSection from './WordInputSection'
 import ResultTable from './ResultTable'
 
 const styles = {
-  root: {
-  },
 };
 
 class TypingSection extends React.Component {
@@ -19,9 +17,6 @@ class TypingSection extends React.Component {
       keyRight: 0,
       totalWord: 0,
     }
-  }
-  
-  componentDidMount() {
   }
 
   handleStart = () => {
@@ -73,7 +68,6 @@ class TypingSection extends React.Component {
 
     // dictionary
     if (event.key >= '0' && event.key <= '9') {
-      // this.props.handleHotKey(event.key)
       return
     }
 
@@ -83,12 +77,6 @@ class TypingSection extends React.Component {
 
     this.setState({ keyPress: keyPress+1})
   }
-
-  handleMiddleReload = () => {
-    this.props.handleStop()
-    this.props.handleReload()
-  }
-
 
   render() {
     const { classes, currentList, currentWordPosition, 
@@ -101,7 +89,7 @@ class TypingSection extends React.Component {
         handleReload={this.props.handleReload}/>
     }
     return (
-      <div className={classes.root}>
+      <div>
         <WordBoard 
           currentList={currentList}
           correctList={correctList}
@@ -115,7 +103,7 @@ class TypingSection extends React.Component {
           handleTyping={this.handleTyping}
           handleKeyTyping={this.handleKeyTyping}
           countDownTime={countDownTime}
-          handleReload={this.handleMiddleReload}
+          handleReload={this.props.handleReload}
           />
       </div>
     )

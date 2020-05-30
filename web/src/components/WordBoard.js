@@ -125,9 +125,7 @@ class WordBoard extends React.Component {
   }
 
   render() {
-    const { 
-      classes
-    } = this.props
+    const { classes } = this.props
     return (
       <Card className={classes.root}>
         <div className={classes.textWrapper}>
