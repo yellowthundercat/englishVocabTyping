@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/ban.webm"],"names":["module","exports"],"mappings":"iFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/368.6920588e.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/ban.af1f3f4d.webm\";"],"sourceRoot":""}

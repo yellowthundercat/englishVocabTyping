@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/bed.webm"],"names":["module","exports"],"mappings":"iFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/405.2e3b9d28.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/bed.505a8c40.webm\";"],"sourceRoot":""}

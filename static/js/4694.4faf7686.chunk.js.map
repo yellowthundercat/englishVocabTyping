@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/warfare.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4694.4faf7686.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/warfare.990f1199.webm\";"],"sourceRoot":""}

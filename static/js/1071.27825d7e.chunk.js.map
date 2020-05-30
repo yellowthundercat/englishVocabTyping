@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/curly.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1071.27825d7e.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/curly.10bb800a.webm\";"],"sourceRoot":""}

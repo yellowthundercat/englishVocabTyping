@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/parade.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3054.943ecb03.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/parade.6303801f.webm\";"],"sourceRoot":""}

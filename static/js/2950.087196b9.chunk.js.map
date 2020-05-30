@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/offer.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2950.087196b9.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/offer.9ac41b6a.webm\";"],"sourceRoot":""}

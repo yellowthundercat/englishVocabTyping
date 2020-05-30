@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/slope.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3973.c6883ffb.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/slope.71d33041.webm\";"],"sourceRoot":""}

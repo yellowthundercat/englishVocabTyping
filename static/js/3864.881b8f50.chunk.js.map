@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/shake.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3864.881b8f50.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/shake.21bb3e93.webm\";"],"sourceRoot":""}

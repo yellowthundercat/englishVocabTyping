@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/flavour.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1776.3df60d63.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/flavour.7976a2bf.webm\";"],"sourceRoot":""}

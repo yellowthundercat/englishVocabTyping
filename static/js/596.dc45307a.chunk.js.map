@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/capitalist.webm"],"names":["module","exports"],"mappings":"iFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/596.dc45307a.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/capitalist.1885ba8a.webm\";"],"sourceRoot":""}

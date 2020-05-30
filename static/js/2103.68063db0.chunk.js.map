@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/homeless.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2103.68063db0.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/homeless.cfcc0549.webm\";"],"sourceRoot":""}

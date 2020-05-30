@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/cinema.webm"],"names":["module","exports"],"mappings":"iFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/696.60c69934.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/cinema.c9396438.webm\";"],"sourceRoot":""}

@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/tourist.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4449.1f0a5a6a.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/tourist.5c10c266.webm\";"],"sourceRoot":""}

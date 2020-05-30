@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/autumn.webm"],"names":["module","exports"],"mappings":"iFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/336.8fe1f5e9.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/autumn.78501fdb.webm\";"],"sourceRoot":""}

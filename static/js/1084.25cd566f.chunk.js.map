@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/cutting.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1084.25cd566f.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/cutting.e2fe79df.webm\";"],"sourceRoot":""}

@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/limitation.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2530.aee4aed7.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/limitation.392969de.webm\";"],"sourceRoot":""}

@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/stall.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4100.b37c37b5.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/stall.b4d51096.webm\";"],"sourceRoot":""}

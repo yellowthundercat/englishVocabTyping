@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/dinner.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1256.09b671f2.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/dinner.9b225e11.webm\";"],"sourceRoot":""}

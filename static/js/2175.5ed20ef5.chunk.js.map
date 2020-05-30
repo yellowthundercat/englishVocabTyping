@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/immigrant.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2175.5ed20ef5.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/immigrant.05fac4bb.webm\";"],"sourceRoot":""}

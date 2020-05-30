@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/seriously.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3841.084b7e8d.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/seriously.99e2d938.webm\";"],"sourceRoot":""}

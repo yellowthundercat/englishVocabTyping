@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/prove.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3394.d1ad9287.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/prove.16d098af.webm\";"],"sourceRoot":""}

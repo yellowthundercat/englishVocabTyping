@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/palm.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3048.30dd34d9.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/palm.8495658e.webm\";"],"sourceRoot":""}

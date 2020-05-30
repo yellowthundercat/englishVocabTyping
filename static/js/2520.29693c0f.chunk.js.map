@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/lifetime.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2520.29693c0f.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/lifetime.44ecbdc9.webm\";"],"sourceRoot":""}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/hall.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2019.a1f7ea31.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/hall.c8b3310a.webm\";"],"sourceRoot":""}

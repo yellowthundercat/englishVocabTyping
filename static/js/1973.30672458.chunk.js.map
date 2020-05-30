@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/grant.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1973.30672458.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/grant.280cb20d.webm\";"],"sourceRoot":""}

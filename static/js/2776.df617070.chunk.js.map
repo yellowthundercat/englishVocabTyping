@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/monopoly.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2776.df617070.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/monopoly.9f38886a.webm\";"],"sourceRoot":""}

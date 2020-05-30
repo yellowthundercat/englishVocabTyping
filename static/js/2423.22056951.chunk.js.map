@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/kitchen.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2423.22056951.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/kitchen.ce297091.webm\";"],"sourceRoot":""}

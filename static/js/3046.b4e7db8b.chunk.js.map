@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/palace.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3046.b4e7db8b.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/palace.84b33d1d.webm\";"],"sourceRoot":""}

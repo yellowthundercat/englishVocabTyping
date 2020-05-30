@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/spin.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4066.ed803084.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/spin.1a74e2c0.webm\";"],"sourceRoot":""}

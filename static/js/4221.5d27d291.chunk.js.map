@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/summer.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4221.5d27d291.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/summer.71bd7c87.webm\";"],"sourceRoot":""}

@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/congressional.webm"],"names":["module","exports"],"mappings":"kFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/883.6a00822d.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/congressional.959689e8.webm\";"],"sourceRoot":""}

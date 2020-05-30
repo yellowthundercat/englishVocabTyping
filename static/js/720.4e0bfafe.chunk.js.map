@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/clause.webm"],"names":["module","exports"],"mappings":"iFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/720.4e0bfafe.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/clause.84621d4e.webm\";"],"sourceRoot":""}

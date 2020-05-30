@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/bored.webm"],"names":["module","exports"],"mappings":"iFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/493.71bb31f6.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/bored.6ee814ca.webm\";"],"sourceRoot":""}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/suspension.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4262.12c241d8.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/suspension.315ebb2e.webm\";"],"sourceRoot":""}

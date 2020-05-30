@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/speculate.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4053.5750e2a9.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/speculate.7be718fa.webm\";"],"sourceRoot":""}

@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/castle.webm"],"names":["module","exports"],"mappings":"iFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/618.bfb30994.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/castle.07ab1dd1.webm\";"],"sourceRoot":""}

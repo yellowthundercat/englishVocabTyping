@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/corner.webm"],"names":["module","exports"],"mappings":"kFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/979.2ffb9b6f.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/corner.dbd2f027.webm\";"],"sourceRoot":""}

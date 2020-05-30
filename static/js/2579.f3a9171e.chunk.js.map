@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/loss.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2579.f3a9171e.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/loss.89bf1507.webm\";"],"sourceRoot":""}

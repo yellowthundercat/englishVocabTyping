@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/transfer.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4475.8d770921.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/transfer.df18840d.webm\";"],"sourceRoot":""}

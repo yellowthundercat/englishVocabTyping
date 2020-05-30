@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/spokesman.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4074.f267e9c4.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/spokesman.0d1c75d0.webm\";"],"sourceRoot":""}

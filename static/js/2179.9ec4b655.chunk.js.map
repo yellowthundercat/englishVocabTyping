@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/impact.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2179.9ec4b655.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/impact.f8de1b68.webm\";"],"sourceRoot":""}

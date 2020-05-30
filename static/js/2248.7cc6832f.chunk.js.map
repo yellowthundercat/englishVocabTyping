@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/inform.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2248.7cc6832f.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/inform.e3110b15.webm\";"],"sourceRoot":""}

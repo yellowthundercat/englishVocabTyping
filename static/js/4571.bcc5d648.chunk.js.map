@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/uniform.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4571.bcc5d648.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/uniform.85185416.webm\";"],"sourceRoot":""}

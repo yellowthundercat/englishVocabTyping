@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/kidney.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2414.2d556216.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/kidney.bc728624.webm\";"],"sourceRoot":""}

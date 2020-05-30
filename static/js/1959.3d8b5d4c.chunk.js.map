@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/govern.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1959.3d8b5d4c.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/govern.1c6958c5.webm\";"],"sourceRoot":""}

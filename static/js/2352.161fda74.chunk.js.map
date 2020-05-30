@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/invest.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2352.161fda74.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/invest.09ccc751.webm\";"],"sourceRoot":""}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/pink.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3163.2d9e0b8e.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/pink.5d927035.webm\";"],"sourceRoot":""}

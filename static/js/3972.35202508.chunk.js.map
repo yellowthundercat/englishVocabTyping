@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/slogan.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3972.35202508.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/slogan.96f6901f.webm\";"],"sourceRoot":""}

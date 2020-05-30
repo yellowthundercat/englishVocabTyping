@@ -1,2 +1,0 @@
-(this.webpackJsonpweb=this.webpackJsonpweb||[]).push([[2341],{2535:function(e,p,s){e.exports=s.p+"static/media/intervene.4576c3d7.webm"}}]);
-//# sourceMappingURL=2341.7fe925b6.chunk.js.map

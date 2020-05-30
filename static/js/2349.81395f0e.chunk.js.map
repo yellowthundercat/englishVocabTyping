@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/invasion.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2349.81395f0e.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/invasion.798b58de.webm\";"],"sourceRoot":""}

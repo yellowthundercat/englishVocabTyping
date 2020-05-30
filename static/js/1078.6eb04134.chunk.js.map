@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/curved.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1078.6eb04134.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/curved.2a588f2f.webm\";"],"sourceRoot":""}

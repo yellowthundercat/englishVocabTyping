@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/survivor.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4259.37e9407d.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/survivor.70af313b.webm\";"],"sourceRoot":""}

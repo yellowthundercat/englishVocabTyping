@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/hotel.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2123.06a0b24d.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/hotel.470ef887.webm\";"],"sourceRoot":""}

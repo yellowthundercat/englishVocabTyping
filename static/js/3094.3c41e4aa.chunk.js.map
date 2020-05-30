@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/patient.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3094.3c41e4aa.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/patient.a8ed0a73.webm\";"],"sourceRoot":""}

@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/word.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4787.610c7449.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/word.fc927e3c.webm\";"],"sourceRoot":""}

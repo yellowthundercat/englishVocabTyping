@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/prescription.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3281.0fc5ea8b.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/prescription.1f9ef4bc.webm\";"],"sourceRoot":""}

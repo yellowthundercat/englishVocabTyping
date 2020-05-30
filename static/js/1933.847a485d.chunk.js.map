@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/gift.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1933.847a485d.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/gift.6e1f6ff1.webm\";"],"sourceRoot":""}

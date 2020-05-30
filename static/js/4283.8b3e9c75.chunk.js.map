@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/synthesis.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4283.8b3e9c75.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/synthesis.bfc2a641.webm\";"],"sourceRoot":""}

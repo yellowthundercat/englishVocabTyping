@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/summarize.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4219.a1a26548.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/summarize.d0043ffa.webm\";"],"sourceRoot":""}

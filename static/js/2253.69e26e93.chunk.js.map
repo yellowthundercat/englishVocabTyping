@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/inhabitant.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2253.69e26e93.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/inhabitant.7278bed3.webm\";"],"sourceRoot":""}

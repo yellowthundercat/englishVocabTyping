@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/inflict.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2244.a34e018c.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/inflict.094b6a75.webm\";"],"sourceRoot":""}

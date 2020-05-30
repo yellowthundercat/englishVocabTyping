@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/remind.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3593.c6707642.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/remind.8c33a54c.webm\";"],"sourceRoot":""}

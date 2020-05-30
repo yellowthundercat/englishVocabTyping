@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/arena.webm"],"names":["module","exports"],"mappings":"iFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/250.321c856e.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/arena.c800d60c.webm\";"],"sourceRoot":""}

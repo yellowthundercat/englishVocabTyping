@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/tale.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4295.f024a0ad.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/tale.3e8163d0.webm\";"],"sourceRoot":""}

@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/weave.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4716.24701f2e.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/weave.9d8c21c4.webm\";"],"sourceRoot":""}

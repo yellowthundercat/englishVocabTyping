@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/nice.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2871.bd03da27.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/nice.4161b649.webm\";"],"sourceRoot":""}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/alignment.webm"],"names":["module","exports"],"mappings":"iFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/144.9f12913b.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/alignment.c60333aa.webm\";"],"sourceRoot":""}

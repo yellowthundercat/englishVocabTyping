@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/living.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2554.edbcc114.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/living.b658f4c9.webm\";"],"sourceRoot":""}

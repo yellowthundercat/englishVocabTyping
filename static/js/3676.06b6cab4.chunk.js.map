@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/revolution.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3676.06b6cab4.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/revolution.8f3975e2.webm\";"],"sourceRoot":""}

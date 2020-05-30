@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/sticky.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4130.28b43b2e.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/sticky.95ec77f9.webm\";"],"sourceRoot":""}

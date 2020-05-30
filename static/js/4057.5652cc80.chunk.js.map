@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/spell.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4057.5652cc80.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/spell.7a4b6c61.webm\";"],"sourceRoot":""}

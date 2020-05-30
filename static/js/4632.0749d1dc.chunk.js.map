@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/vehicle.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4632.0749d1dc.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/vehicle.344c6f0f.webm\";"],"sourceRoot":""}

@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/luxury.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2595.c3a8d78f.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/luxury.9913b749.webm\";"],"sourceRoot":""}

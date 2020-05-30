@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/donation.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1345.5d654ba5.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/donation.d2e3e771.webm\";"],"sourceRoot":""}

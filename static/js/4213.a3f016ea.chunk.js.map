@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/suggestion.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4213.a3f016ea.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/suggestion.58616ca0.webm\";"],"sourceRoot":""}

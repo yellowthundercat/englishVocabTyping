@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/lifestyle.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2519.f9e3a19d.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/lifestyle.45ecbc83.webm\";"],"sourceRoot":""}

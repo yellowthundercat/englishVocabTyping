@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/constitution.webm"],"names":["module","exports"],"mappings":"kFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/913.8bb38360.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/constitution.33d96546.webm\";"],"sourceRoot":""}

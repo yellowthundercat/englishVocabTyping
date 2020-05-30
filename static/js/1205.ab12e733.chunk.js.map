@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/desk.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1205.ab12e733.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/desk.79631478.webm\";"],"sourceRoot":""}

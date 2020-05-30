@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/traveller.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4491.22376610.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/traveller.85339abf.webm\";"],"sourceRoot":""}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/consumption.webm"],"names":["module","exports"],"mappings":"kFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/923.4c80e452.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/consumption.cbf8c85d.webm\";"],"sourceRoot":""}

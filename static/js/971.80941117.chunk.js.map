@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/coordination.webm"],"names":["module","exports"],"mappings":"kFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/971.80941117.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/coordination.7b535d0e.webm\";"],"sourceRoot":""}

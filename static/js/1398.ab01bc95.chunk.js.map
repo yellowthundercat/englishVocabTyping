@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/earthquake.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1398.ab01bc95.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/earthquake.5665c602.webm\";"],"sourceRoot":""}

@@ -1,2 +1,0 @@
-(this.webpackJsonpweb=this.webpackJsonpweb||[]).push([[2062],{2256:function(e,p,s){e.exports=s.p+"static/media/heel.f6fc7702.webm"}}]);
-//# sourceMappingURL=2062.c5daf610.chunk.js.map

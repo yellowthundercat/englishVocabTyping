@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/reception.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3512.ecf15025.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/reception.67d00104.webm\";"],"sourceRoot":""}

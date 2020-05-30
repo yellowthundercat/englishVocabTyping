@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/invite.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2360.ae719fb7.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/invite.7b956c1d.webm\";"],"sourceRoot":""}

@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/ideological.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2156.c3973043.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/ideological.99e1125c.webm\";"],"sourceRoot":""}

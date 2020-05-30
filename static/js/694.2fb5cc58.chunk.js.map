@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/church.webm"],"names":["module","exports"],"mappings":"iFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/694.2fb5cc58.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/church.7a5fd8b8.webm\";"],"sourceRoot":""}

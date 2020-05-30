@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/silk.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3922.9cb32ff4.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/silk.8cf2c977.webm\";"],"sourceRoot":""}

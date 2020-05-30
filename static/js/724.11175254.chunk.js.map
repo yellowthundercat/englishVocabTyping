@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/clerk.webm"],"names":["module","exports"],"mappings":"iFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/724.11175254.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/clerk.0caa2018.webm\";"],"sourceRoot":""}

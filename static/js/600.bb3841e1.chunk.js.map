@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/carbon.webm"],"names":["module","exports"],"mappings":"iFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/600.bb3841e1.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/carbon.d2e0d7fa.webm\";"],"sourceRoot":""}

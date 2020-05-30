@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/trading.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4461.f7090322.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/trading.b60ff8d7.webm\";"],"sourceRoot":""}

@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/skiing.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3953.7308ecef.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/skiing.e26bf374.webm\";"],"sourceRoot":""}

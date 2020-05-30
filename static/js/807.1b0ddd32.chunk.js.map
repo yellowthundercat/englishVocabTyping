@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/company.webm"],"names":["module","exports"],"mappings":"kFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/807.1b0ddd32.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/company.cafffa2d.webm\";"],"sourceRoot":""}

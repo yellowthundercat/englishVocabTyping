@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/skull.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3959.1cf42769.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/skull.c52ccf27.webm\";"],"sourceRoot":""}

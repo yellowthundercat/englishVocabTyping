@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/regulation.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3556.00357a07.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/regulation.f2f49381.webm\";"],"sourceRoot":""}

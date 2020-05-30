@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/abolish.webm"],"names":["module","exports"],"mappings":"+EAAAA,EAAOC,QAAU,IAA0B","file":"static/js/6.b4d032c7.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/abolish.b17ed2e9.webm\";"],"sourceRoot":""}

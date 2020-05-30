@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/household.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2126.cb8c3fcd.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/household.e0853b97.webm\";"],"sourceRoot":""}

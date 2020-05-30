@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/fishing.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1765.706dcf8f.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/fishing.86a2a2d7.webm\";"],"sourceRoot":""}

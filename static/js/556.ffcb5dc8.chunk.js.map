@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/burial.webm"],"names":["module","exports"],"mappings":"iFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/556.ffcb5dc8.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/burial.4335348a.webm\";"],"sourceRoot":""}

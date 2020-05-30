@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/nonsense.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2889.4eba1476.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/nonsense.9c0bd168.webm\";"],"sourceRoot":""}

@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/newspaper.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2869.05ca41e2.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/newspaper.4b8b8318.webm\";"],"sourceRoot":""}

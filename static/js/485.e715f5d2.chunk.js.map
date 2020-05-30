@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/bone.webm"],"names":["module","exports"],"mappings":"iFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/485.e715f5d2.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/bone.d4f5e374.webm\";"],"sourceRoot":""}

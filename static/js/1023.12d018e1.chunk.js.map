@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/craft.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1023.12d018e1.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/craft.1a7e8c4c.webm\";"],"sourceRoot":""}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/candidate.webm"],"names":["module","exports"],"mappings":"iFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/586.b6a301c4.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/candidate.a24e7b8a.webm\";"],"sourceRoot":""}

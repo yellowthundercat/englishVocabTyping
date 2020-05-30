@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/warm.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4695.d1a26ebf.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/warm.7b59e035.webm\";"],"sourceRoot":""}

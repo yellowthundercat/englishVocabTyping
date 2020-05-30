@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/restaurant.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3650.27b866a1.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/restaurant.01494403.webm\";"],"sourceRoot":""}

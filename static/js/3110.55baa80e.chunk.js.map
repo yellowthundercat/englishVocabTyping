@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/penny.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3110.55baa80e.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/penny.84a33ec5.webm\";"],"sourceRoot":""}

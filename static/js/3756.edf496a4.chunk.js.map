@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/sandwich.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3756.edf496a4.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/sandwich.94173c0a.webm\";"],"sourceRoot":""}

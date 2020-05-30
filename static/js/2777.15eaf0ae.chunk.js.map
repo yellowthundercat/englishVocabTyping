@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/monster.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2777.15eaf0ae.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/monster.33a37f93.webm\";"],"sourceRoot":""}

@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/lorry.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2577.ae353e00.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/lorry.8e290c19.webm\";"],"sourceRoot":""}

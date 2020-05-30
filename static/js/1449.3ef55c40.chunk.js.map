@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/elephant.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1449.3ef55c40.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/elephant.49308deb.webm\";"],"sourceRoot":""}

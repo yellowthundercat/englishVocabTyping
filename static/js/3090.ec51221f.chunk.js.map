@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/patent.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3090.ec51221f.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/patent.852c90cf.webm\";"],"sourceRoot":""}

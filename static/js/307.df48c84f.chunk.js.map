@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/atrocity.webm"],"names":["module","exports"],"mappings":"iFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/307.df48c84f.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/atrocity.339a6f4c.webm\";"],"sourceRoot":""}

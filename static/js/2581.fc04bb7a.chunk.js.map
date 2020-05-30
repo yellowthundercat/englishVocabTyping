@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/lot.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2581.fc04bb7a.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/lot.4e8e4cf6.webm\";"],"sourceRoot":""}

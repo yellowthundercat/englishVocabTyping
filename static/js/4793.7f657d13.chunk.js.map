@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/workplace.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4793.7f657d13.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/workplace.b799e853.webm\";"],"sourceRoot":""}

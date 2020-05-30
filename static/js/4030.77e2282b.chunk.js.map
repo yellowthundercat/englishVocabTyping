@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/southern.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4030.77e2282b.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/southern.5f63f4d5.webm\";"],"sourceRoot":""}

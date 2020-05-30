@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/mail.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2607.ca1d863a.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/mail.4d2978e4.webm\";"],"sourceRoot":""}

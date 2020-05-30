@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/snap.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3987.aa53f281.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/snap.f7b7b8bc.webm\";"],"sourceRoot":""}

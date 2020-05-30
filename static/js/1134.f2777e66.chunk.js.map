@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/deed.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1134.f2777e66.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/deed.aa0daf36.webm\";"],"sourceRoot":""}

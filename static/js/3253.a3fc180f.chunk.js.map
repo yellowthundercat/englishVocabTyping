@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/pray.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3253.a3fc180f.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/pray.6dcb6146.webm\";"],"sourceRoot":""}

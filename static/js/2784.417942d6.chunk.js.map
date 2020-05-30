@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/morality.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2784.417942d6.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/morality.86b8895a.webm\";"],"sourceRoot":""}
