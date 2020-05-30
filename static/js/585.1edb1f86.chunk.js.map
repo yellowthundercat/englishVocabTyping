@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/cancer.webm"],"names":["module","exports"],"mappings":"iFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/585.1edb1f86.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/cancer.e41ae6bb.webm\";"],"sourceRoot":""}

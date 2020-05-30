@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/talk.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4298.1976c5ed.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/talk.30917bdf.webm\";"],"sourceRoot":""}

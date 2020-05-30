@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/distant.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1310.8b8fbf91.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/distant.bd9003e9.webm\";"],"sourceRoot":""}

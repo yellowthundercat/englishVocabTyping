@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/mayor.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2668.14691445.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/mayor.0681b1fa.webm\";"],"sourceRoot":""}

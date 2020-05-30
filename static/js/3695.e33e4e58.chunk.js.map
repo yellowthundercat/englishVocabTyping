@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/rival.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3695.e33e4e58.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/rival.dd707569.webm\";"],"sourceRoot":""}

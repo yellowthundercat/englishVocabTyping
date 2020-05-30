@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/cool.webm"],"names":["module","exports"],"mappings":"kFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/967.9f041b4d.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/cool.cd675f55.webm\";"],"sourceRoot":""}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/breakfast.webm"],"names":["module","exports"],"mappings":"iFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/517.9d1742a3.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/breakfast.9d1080a7.webm\";"],"sourceRoot":""}

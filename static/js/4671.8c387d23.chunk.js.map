@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/vital.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4671.8c387d23.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/vital.4eb602ac.webm\";"],"sourceRoot":""}

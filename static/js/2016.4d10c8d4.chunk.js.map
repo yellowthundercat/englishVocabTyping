@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/hair.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2016.4d10c8d4.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/hair.6893ce43.webm\";"],"sourceRoot":""}

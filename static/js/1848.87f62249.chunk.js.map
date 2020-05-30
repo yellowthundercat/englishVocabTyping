@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/franchise.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1848.87f62249.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/franchise.14778cc2.webm\";"],"sourceRoot":""}

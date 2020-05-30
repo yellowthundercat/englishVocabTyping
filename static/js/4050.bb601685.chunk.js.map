@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/spectacular.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4050.bb601685.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/spectacular.268272bf.webm\";"],"sourceRoot":""}

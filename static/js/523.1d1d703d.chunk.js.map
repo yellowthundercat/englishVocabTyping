@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/breed.webm"],"names":["module","exports"],"mappings":"iFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/523.1d1d703d.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/breed.0f888ff4.webm\";"],"sourceRoot":""}

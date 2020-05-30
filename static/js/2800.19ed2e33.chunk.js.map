@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/mouse.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2800.19ed2e33.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/mouse.db9c4356.webm\";"],"sourceRoot":""}

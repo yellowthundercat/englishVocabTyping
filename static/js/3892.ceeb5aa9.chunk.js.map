@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/shooting.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3892.ceeb5aa9.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/shooting.833a6914.webm\";"],"sourceRoot":""}

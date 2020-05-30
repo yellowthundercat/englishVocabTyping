@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/colonial.webm"],"names":["module","exports"],"mappings":"iFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/771.a6e00df0.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/colonial.d2359c11.webm\";"],"sourceRoot":""}

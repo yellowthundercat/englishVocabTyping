@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/friendship.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1863.39340b07.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/friendship.98095529.webm\";"],"sourceRoot":""}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/joke.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2387.98b0c0c9.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/joke.f3d43390.webm\";"],"sourceRoot":""}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/envelope.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1534.108b1d41.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/envelope.db32a19f.webm\";"],"sourceRoot":""}

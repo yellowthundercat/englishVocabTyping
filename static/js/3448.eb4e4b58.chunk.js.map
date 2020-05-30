@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/quote.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3448.eb4e4b58.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/quote.223efdde.webm\";"],"sourceRoot":""}

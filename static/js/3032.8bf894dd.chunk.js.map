@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/ownership.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3032.8bf894dd.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/ownership.ffedbc50.webm\";"],"sourceRoot":""}

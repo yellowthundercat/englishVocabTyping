@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/neighbourhood.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2854.f9ae5c80.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/neighbourhood.14e0ab60.webm\";"],"sourceRoot":""}

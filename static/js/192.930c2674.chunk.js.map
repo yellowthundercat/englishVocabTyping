@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/animal.webm"],"names":["module","exports"],"mappings":"iFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/192.930c2674.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/animal.6c3f7d08.webm\";"],"sourceRoot":""}

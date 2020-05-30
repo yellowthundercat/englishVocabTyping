@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/trousers.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4515.b510edc8.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/trousers.90724c32.webm\";"],"sourceRoot":""}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/fashion.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1703.97b72d7b.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/fashion.15a5222c.webm\";"],"sourceRoot":""}

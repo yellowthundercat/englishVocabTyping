@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/towel.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4452.3dc0019b.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/towel.34bc975c.webm\";"],"sourceRoot":""}

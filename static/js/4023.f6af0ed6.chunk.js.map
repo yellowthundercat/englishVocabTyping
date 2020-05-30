@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/sorry.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4023.f6af0ed6.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/sorry.8c5d0bad.webm\";"],"sourceRoot":""}

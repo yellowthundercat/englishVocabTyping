@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/harvest.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2040.e952bd5c.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/harvest.dd2e2117.webm\";"],"sourceRoot":""}

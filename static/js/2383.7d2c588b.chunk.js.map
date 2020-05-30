@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/jewellery.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2383.7d2c588b.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/jewellery.a26f70d8.webm\";"],"sourceRoot":""}

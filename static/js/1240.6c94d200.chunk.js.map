@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/dictionary.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1240.6c94d200.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/dictionary.1f733c53.webm\";"],"sourceRoot":""}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/tribe.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4501.d55af7fd.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/tribe.701c9581.webm\";"],"sourceRoot":""}

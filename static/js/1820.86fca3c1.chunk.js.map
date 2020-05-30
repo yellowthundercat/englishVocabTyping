@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/formal.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1820.86fca3c1.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/formal.7e6f1e0a.webm\";"],"sourceRoot":""}

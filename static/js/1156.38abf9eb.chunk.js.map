@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/delete.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1156.38abf9eb.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/delete.e175586c.webm\";"],"sourceRoot":""}

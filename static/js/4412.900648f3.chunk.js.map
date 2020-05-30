@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/timber.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4412.900648f3.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/timber.4b7a3949.webm\";"],"sourceRoot":""}

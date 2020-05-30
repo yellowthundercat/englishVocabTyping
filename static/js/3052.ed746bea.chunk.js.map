@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/pants.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3052.ed746bea.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/pants.af97af4d.webm\";"],"sourceRoot":""}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/give.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1937.411e35c7.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/give.6e0c3b16.webm\";"],"sourceRoot":""}

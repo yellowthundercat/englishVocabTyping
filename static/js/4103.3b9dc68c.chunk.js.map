@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/stand.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4103.3b9dc68c.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/stand.8f9e9ff5.webm\";"],"sourceRoot":""}

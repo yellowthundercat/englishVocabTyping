@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/insect.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2274.7273ce5f.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/insect.918d6c63.webm\";"],"sourceRoot":""}

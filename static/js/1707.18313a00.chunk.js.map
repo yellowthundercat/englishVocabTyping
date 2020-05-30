@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/fat.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1707.18313a00.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/fat.ce726002.webm\";"],"sourceRoot":""}

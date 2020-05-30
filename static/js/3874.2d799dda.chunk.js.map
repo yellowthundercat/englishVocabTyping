@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/shed.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3874.2d799dda.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/shed.2bc8e6f9.webm\";"],"sourceRoot":""}

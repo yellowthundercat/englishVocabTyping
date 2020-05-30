@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/bacteria.webm"],"names":["module","exports"],"mappings":"iFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/355.17627976.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/bacteria.65919e42.webm\";"],"sourceRoot":""}

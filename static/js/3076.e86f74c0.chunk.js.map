@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/partnership.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3076.e86f74c0.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/partnership.c991e7c3.webm\";"],"sourceRoot":""}

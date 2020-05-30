@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/narrow.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2828.44ed477d.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/narrow.8bedd286.webm\";"],"sourceRoot":""}

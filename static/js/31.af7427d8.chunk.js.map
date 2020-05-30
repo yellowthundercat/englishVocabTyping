@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/accompany.webm"],"names":["module","exports"],"mappings":"gFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/31.af7427d8.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/accompany.8fde4224.webm\";"],"sourceRoot":""}

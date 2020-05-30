@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/activist.webm"],"names":["module","exports"],"mappings":"gFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/62.14d1fd14.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/activist.0e531506.webm\";"],"sourceRoot":""}

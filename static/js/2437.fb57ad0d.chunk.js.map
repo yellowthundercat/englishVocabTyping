@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/lake.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2437.fb57ad0d.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/lake.797b354f.webm\";"],"sourceRoot":""}
