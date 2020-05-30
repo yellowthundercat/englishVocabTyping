@@ -8,9 +8,7 @@ import Button from '@material-ui/core/Button'
 
 import color from '../constant/color'
 
-const styles = {
-  root: {
-  },
+const styles = theme => ({
   wrapper: {
     width: 320,
     margin: 'auto',
@@ -19,7 +17,11 @@ const styles = {
     // flexGrow: 1,
     fontSize: 18,
     padding: '5px 10px',
-    margin: 5
+    margin: 5,
+    [theme.breakpoints.down('xs')]: {
+      fontSize: 15,
+      marginTop: 0,
+    },
   },
   resultTitle: {
     fontSize: 32,
@@ -28,22 +30,28 @@ const styles = {
     margin: 10,
     marginBottom: 15,
     fontWeight: 500,
+    [theme.breakpoints.down('xs')]: {
+      fontSize: 28,
+    },
   },
   wpm: {
     fontSize: 25,
     color: color.green,
     padding: 5,
     fontWeight: 500,
+    [theme.breakpoints.down('xs')]: {
+      fontSize: 23,
+    },
   },
   resultElementWrapper: {
     display: 'flex',
     justifyContent: 'space-between',
     fontSize: 23,
     padding: 5,
+    [theme.breakpoints.down('xs')]: {
+      fontSize: 21,
+    },
   },
-  normalText: {
-
-  }, 
   greenText: {
     color: color.green,
     fontWeight: 500,
@@ -58,7 +66,7 @@ const styles = {
     marginTop: 0,
     paddingTop: 0,
   },
-};
+});
 
 class ResultTable extends React.Component {
   constructor(props) {
@@ -74,7 +82,7 @@ class ResultTable extends React.Component {
     const { classes, result, handleReload } = this.props
     const { keyPress, keyRight, wordCount, totalWord } = result
     return (
-      <div className={classes.root}>
+      <div>
         <Card className={classes.wrapper}>
           <CardContent>
             <div className={classes.resultTitle}>Congratulations!</div>

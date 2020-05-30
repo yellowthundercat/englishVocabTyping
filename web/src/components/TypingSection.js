@@ -1,14 +1,9 @@
 import React from 'react';
-import { withStyles } from '@material-ui/core/styles';
 
 import WordBoard from './WordBoard'
 import WordInputSection from './WordInputSection'
 import ResultTable from './ResultTable'
 
-const styles = {
-  root: {
-  },
-};
 
 class TypingSection extends React.Component {
   constructor(props) {
@@ -20,14 +15,11 @@ class TypingSection extends React.Component {
       totalWord: 0,
     }
   }
-  
-  componentDidMount() {
-  }
 
   handleStart = () => {
     this.setState({
       wordCount: 0, 
-      keyPress: 0,
+      keyPress: 1,
       keyRight: 0,
       totalWord: 0,
     })
@@ -65,33 +57,26 @@ class TypingSection extends React.Component {
         keyRight: newKeyRight,
         totalWord: totalWord + 1,
         wordCount: newWordCount,
-      }, () => {
-        this.props.goNextWord(currentCorrect)
       })
+      this.props.goNextWord(currentCorrect)
       return
     }
 
     // dictionary
     if (event.key >= '0' && event.key <= '9') {
-      this.props.handleHotKey(event.key)
       return
     }
 
     if (typingState === 'waiting') {
       this.handleStart()
+      return 
     }
 
     this.setState({ keyPress: keyPress+1})
   }
 
-  handleMiddleReload = () => {
-    this.props.handleStop()
-    this.props.handleReload()
-  }
-
-
   render() {
-    const { classes, currentList, currentWordPosition, 
+    const { currentList, currentWordPosition, 
       firstDisplay, correctList, currentCorrect,
       currentTypingWord, typingState, countDownTime,  
     } = this.props
@@ -101,7 +86,7 @@ class TypingSection extends React.Component {
         handleReload={this.props.handleReload}/>
     }
     return (
-      <div className={classes.root}>
+      <div>
         <WordBoard 
           currentList={currentList}
           correctList={correctList}
@@ -115,11 +100,11 @@ class TypingSection extends React.Component {
           handleTyping={this.handleTyping}
           handleKeyTyping={this.handleKeyTyping}
           countDownTime={countDownTime}
-          handleReload={this.handleMiddleReload}
+          handleReload={this.props.handleReload}
           />
       </div>
     )
   }
 }
 
-export default withStyles(styles)(TypingSection);
+export default TypingSection;

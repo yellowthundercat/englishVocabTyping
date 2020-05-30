@@ -22,6 +22,23 @@ const styles = theme => ({
     fontSize: 16,
     color: color.black,
     fontWeight: 500,
+    [theme.breakpoints.down('xs')]: {
+      paddingRight: 5,
+    },
+  },
+  modeLabel: {
+    [theme.breakpoints.down('xs')]: {
+      fontSize: 15,
+      margin: 0,
+    },
+  },
+  modeButton: {
+    [theme.breakpoints.down('xs')]: {
+      size: '10px',
+      margin: 0,
+      marginLeft: 5,
+      padding: 2,
+    },
   },
   difficultForm: {
     display: 'flex',
@@ -30,8 +47,11 @@ const styles = theme => ({
   },
   sliderwraper: {
     display: 'inline-block',
-    width: 250,
+    width: 220,
     marginLeft: 30,
+    [theme.breakpoints.down('xs')]: {
+      marginLeft: 20,
+    },
   },
   difficultTitle: {
     fontSize: 16,
@@ -40,13 +60,19 @@ const styles = theme => ({
   optionCard: {
     padding: 20,
     marginBottom: 10,
+    [theme.breakpoints.down('xs')]: {
+      padding: 15,
+    },
   },
   optionWrapper: {
-    width: 430,
-    marginLeft: 'max(calc((100% - 820px)/2), 0px)',
+    width: 'min(430px, 98%)',
+    marginLeft: 'max(calc((100% - 820px)/2), 2px)',
   },
   optionButton: {
     marginBottom: 10,
+    [theme.breakpoints.down('xs')]: {
+      fontSize: 15,
+    },
   },
 });
 
@@ -55,7 +81,7 @@ const difficultLevel = [
   { label: 'beginner', value: 2 },
   { label: 'easy', value: 3 },
   { label: 'normal', value: 4 },
-  { label: 'little hard', value: 5 },
+  { label: 'hard', value: 5 },
 ]
 
 class FilterSectionCore extends React.Component {
@@ -72,12 +98,14 @@ class FilterSectionCore extends React.Component {
             <RadioGroup row aria-label='modeChoosing' name='modeChoosing' onChange={handleChangeMode} defaultValue='Random Word'>
               <Typography component='span' className={classes.formTitle} disabled>Mode</Typography>
               <FormControlLabel
+                className={classes.modeLabel}
                 value='Random Word'
-                control={<Radio color="default" />}
+                control={<Radio color="default" className={classes.modeButton}/>}
                 label='Random Word' />
               <FormControlLabel
+                className={classes.modeLabel}
                 value='Full Sentence'
-                control={<Radio color="default" />}
+                control={<Radio color="default" className={classes.modeButton}/>}
                 label='Full Sentence' />
             </RadioGroup>
           </FormControl>

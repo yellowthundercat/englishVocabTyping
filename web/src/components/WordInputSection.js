@@ -6,37 +6,48 @@ import Button from '@material-ui/core/Button';
 
 import color from '../constant/color'
 
-const styles = {
-  root: {
-  },
+const styles = theme => ({
   textWrapper: {
-    width: 750,
+    width: 'min(750px, 90%)',
     display: 'flex',
     margin: 'auto',
   },
   textArea: {
     background: color.white,
     flexGrow: 10,
-    
+    [theme.breakpoints.down('xs')]: {
+      flexGrow: 2,
+    },
   },
   inputFont: {
     fontSize: 25,
     padding: 10,
+    [theme.breakpoints.down('xs')]: {
+      fontSize: 20,
+      padding: 5,
+    },
   },
   timer: {
-    width: 50,
     flexGrow: 1,
     fontSize: 30,
     margin: 'auto',
     textAlign: 'center',
+    [theme.breakpoints.down('xs')]: {
+      fontSize: 21,
+      padding: 2,
+    },
   },
   reloadButton: {
     flexGrow: 1,
     fontSize: 20,
     padding: 0,
-    margin: 5
+    margin: 5,
+    [theme.breakpoints.down('xs')]: {
+      fontSize: 15,
+      margin: 2,
+    },
   },
-};
+});
 
 class WordInputSection extends React.Component {
   
@@ -51,8 +62,7 @@ class WordInputSection extends React.Component {
   render() {
     const { classes, currentTypingWord, handleTyping, handleKeyTyping, handleReload } = this.props
     return (
-      <div className={classes.root}>
-        {/* <Grid container className={classes.textWrapper}> */}
+      <div>
         <form className={classes.textWrapper} noValidate autoComplete="off" onSubmit={(event) => { event.preventDefault() }}>
           <TextField id="outlined-basic" variant="outlined" className={classes.textArea} autoFocus
             InputProps={{classes: {input: classes.inputFont}}}
@@ -63,7 +73,6 @@ class WordInputSection extends React.Component {
             Reload
           </Button>
         </form>
-        {/* </Grid> */}
       </div>
     )
   }

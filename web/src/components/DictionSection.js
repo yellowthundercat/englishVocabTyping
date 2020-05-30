@@ -8,31 +8,44 @@ import CardContent from '@material-ui/core/CardContent'
 import VolumeUpIcon from '@material-ui/icons/VolumeUp';
 import IconButton from '@material-ui/core/IconButton'
 
-const styles = {
+const styles = theme => ({
   root: { 
-    marginTop: 50,
+    marginTop: 40,
+    [theme.breakpoints.down('xs')]: {
+      marginTop: 15,
+    },
   },
   wrapper: {
-    width: 500,
+    width: 'min(500px, 90%)',
     margin: 'auto',
-  },
-  title: {
-
   },
   word: {
     fontSize: 30,
     color: color.darkBlue,
+    [theme.breakpoints.down('xs')]: {
+      fontSize: 23,
+    },
   },
   pronunciation: {
     fontSize: 23,
     color: color.gray,
     marginLeft: 10,
+    [theme.breakpoints.down('xs')]: {
+      fontSize: 19,
+      marginLeft: 7,
+    },
   },
   meaningWrapper: {
-    padding: 10
+    padding: 10,
+    [theme.breakpoints.down('xs')]: {
+      padding: 7,
+    },
   },
   defWrapper: {
     fontSize: 18,
+    [theme.breakpoints.down('xs')]: {
+      fontSize: 16,
+    },
   },
   pos: {
     color: color.gray,
@@ -52,12 +65,18 @@ const styles = {
   volume: {
     marginLeft: 10,
     marginTop: -5,
+    [theme.breakpoints.down('xs')]: {
+      marginLeft: 5,
+    },
   },
   sentence: {
     fontSize: 20,
     margin: 10,
+    [theme.breakpoints.down('xs')]: {
+      fontSize: 18,
+    },
   }
-};
+});
 
 class DictionSection extends React.Component {
   generateMeaning = () => {
@@ -65,9 +84,10 @@ class DictionSection extends React.Component {
     let meaning = currentWord.engMeaning
     if (typeDictionary === 'Vietnam')
       meaning = currentWord.vietMeaning
+    if (!currentWord.word || !meaning) return(<div></div>)
 
     return meaning.map((item, index) => 
-      <div className={classes.meaningWrapper}>
+      <div className={classes.meaningWrapper} key={`diction-meaning-${index}-${currentWord.word}`}>
         <div className={classes.defWrapper}>
           +
           {item.pos && <span className={classes.pos}>[{item.pos}]</span>}
