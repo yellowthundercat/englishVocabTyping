@@ -5,48 +5,77 @@ import color from '../constant/color'
 
 import Card from '@material-ui/core/Card';
 
-const styles = {
+const styles = theme => ({
   root: {
     margin: 'auto',
-    width: 800,
+    width: 'min(800px, 95%)',
     padding: 10,
     paddingRight: 5,
     marginBottom: 10,
     fontSize: 27,
+    [theme.breakpoints.down('xs')]: {
+      fontSize: 20,
+      padding: 5,
+      paddingRight:3,
+      marginBottom: 5,
+    },
   },
   textWrapper: {
-    width: 800,
+    width: 'min(800px, 95%)',
     height: 82,
     background: color.white,
     display: 'flex',
     flexFlow: 'row wrap',
     overflow: 'hidden',
+    [theme.breakpoints.down('xs')]: {
+      height: 60,
+    },
   },
   correctWord: {
     color: color.green,
     padding: 4,
     height: 34,
+    [theme.breakpoints.down('xs')]: {
+      height: 25,
+      padding: 3,
+    },
   },
   uncorrectWord: {
     color: color.red,
     padding: 4,
     height: 34,
+    [theme.breakpoints.down('xs')]: {
+      height: 25,
+      padding: 3,
+    },
   },
   currentWord: {
     background: color.lightGray,
     padding: 4,
     height: 34,
+    [theme.breakpoints.down('xs')]: {
+      height: 25,
+      padding: 3,
+    },
   },
   currentUncorrectWord: {
     background: color.brightRed,
     padding: 4,
     height: 34,
+    [theme.breakpoints.down('xs')]: {
+      height: 25,
+      padding: 3,
+    },
   },
   normalWord: {
     padding: 4,
     height: 34,
+    [theme.breakpoints.down('xs')]: {
+      height: 25,
+      padding: 3,
+    },
   }
-};
+});
 
 class WordBoard extends React.Component {
   constructor(props) {
@@ -60,7 +89,7 @@ class WordBoard extends React.Component {
       && this.props.currentWordPosition !== this.props.firstDisplay) {
       let firstTop = this.firstDisplayRef.current.getBoundingClientRect().top
       let currentTop = this.currentWordRef.current.getBoundingClientRect().top
-      if (firstTop + 10 < currentTop) {
+      if (firstTop + 2 < currentTop) {
         this.props.goNextLine()
       }
     }

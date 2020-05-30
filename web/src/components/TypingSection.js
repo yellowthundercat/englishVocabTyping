@@ -73,7 +73,7 @@ class TypingSection extends React.Component {
 
     // dictionary
     if (event.key >= '0' && event.key <= '9') {
-      this.props.handleHotKey(event.key)
+      // this.props.handleHotKey(event.key)
       return
     }
 

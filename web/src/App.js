@@ -29,7 +29,7 @@ c1ListFull.forEach((word) => { baseListFull[word.word] = word })
 const maximumWordPerType = 300
 const baseList = [a1List, a2List, b1List, b2List, c1List]
 
-const defaultCountTime = 10
+const defaultCountTime = 60
 const defaultNumberSetSentence = 99
 
 var baseSentenceList = []
@@ -61,7 +61,12 @@ class App extends React.Component {
   }
 
   componentDidMount() {
+    document.addEventListener("keydown", this.handleHotKey, false);
     this.generateListWord();
+  }
+
+  componentWillUnmount(){
+    document.removeEventListener("keydown", this.handleHotKey, false);
   }
 
   getRandomWord = (start, end = null) => {
@@ -84,9 +89,9 @@ class App extends React.Component {
   generateListWord = () => {
     let newListWord = []
     for (let i = 1; i <= maximumWordPerType; i++) {
-      let isCurrentLevel = Math.floor(Math.random() * 2)
+      let isCurrentLevel = Math.floor(Math.random() * 3)
       let newWord = 'across'
-      if (isCurrentLevel === 1) {
+      if (isCurrentLevel !== 0) {
         newWord = this.getRandomWord(this.state.difficultLevel - 1)
       } else {
         newWord = this.getRandomWord(0, this.state.difficultLevel - 1)
@@ -211,14 +216,14 @@ class App extends React.Component {
     const { currentWord } = this.state
     if (currentWord && currentWord.word) {
       import(`./static/soundWebm/${currentWord.word}.webm`).then(soundModule => {
-        console.log(soundModule.default)
         let audio = new Audio(soundModule.default)
         audio.play()
       })
     }
   }
 
-  handleHotKey = (keyType) => {
+  handleHotKey = (event) => {
+    let keyType = event.key
     const { typingMode, typeDictionary } = this.state
     // typingMode
     if (typingMode === 'Random Word') {

@@ -8,7 +8,7 @@ import Button from '@material-ui/core/Button'
 
 import color from '../constant/color'
 
-const styles = {
+const styles = theme => ({
   root: {
   },
   wrapper: {
@@ -19,7 +19,11 @@ const styles = {
     // flexGrow: 1,
     fontSize: 18,
     padding: '5px 10px',
-    margin: 5
+    margin: 5,
+    [theme.breakpoints.down('xs')]: {
+      fontSize: 15,
+      marginTop: 0,
+    },
   },
   resultTitle: {
     fontSize: 32,
@@ -28,18 +32,27 @@ const styles = {
     margin: 10,
     marginBottom: 15,
     fontWeight: 500,
+    [theme.breakpoints.down('xs')]: {
+      fontSize: 28,
+    },
   },
   wpm: {
     fontSize: 25,
     color: color.green,
     padding: 5,
     fontWeight: 500,
+    [theme.breakpoints.down('xs')]: {
+      fontSize: 23,
+    },
   },
   resultElementWrapper: {
     display: 'flex',
     justifyContent: 'space-between',
     fontSize: 23,
     padding: 5,
+    [theme.breakpoints.down('xs')]: {
+      fontSize: 21,
+    },
   },
   normalText: {
 
@@ -58,7 +71,7 @@ const styles = {
     marginTop: 0,
     paddingTop: 0,
   },
-};
+});
 
 class ResultTable extends React.Component {
   constructor(props) {
