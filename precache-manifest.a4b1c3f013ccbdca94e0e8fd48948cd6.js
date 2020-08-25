@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "250c2c1e954c086937529f5bf5dcc4e7",
+    "revision": "691294ba7357eb2144ccf76c8ac074e6",
     "url": "/englishVocabTyping/index.html"
   },
   {
-    "revision": "d93fd8671bf15ff6de5b",
+    "revision": "25204c35595cd576d68a",
     "url": "/englishVocabTyping/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -4448,12 +4448,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/englishVocabTyping/static/js/1999.faa1cb7b.chunk.js"
   },
   {
-    "revision": "3466c872deeada80541a",
-    "url": "/englishVocabTyping/static/js/2.57f0dd1e.chunk.js"
+    "revision": "cbfd986dc13b32591f52",
+    "url": "/englishVocabTyping/static/js/2.1e0ad39f.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/englishVocabTyping/static/js/2.57f0dd1e.chunk.js.LICENSE.txt"
+    "url": "/englishVocabTyping/static/js/2.1e0ad39f.chunk.js.LICENSE.txt"
   },
   {
     "revision": "45ab20dee082c14e9be9",
@@ -19716,8 +19716,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/englishVocabTyping/static/js/999.208a8ab5.chunk.js"
   },
   {
-    "revision": "d93fd8671bf15ff6de5b",
-    "url": "/englishVocabTyping/static/js/main.2d2caa01.chunk.js"
+    "revision": "25204c35595cd576d68a",
+    "url": "/englishVocabTyping/static/js/main.342d57d9.chunk.js"
   },
   {
     "revision": "621ab21f81184cce1e93",
