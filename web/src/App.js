@@ -52,6 +52,7 @@ class App extends React.Component {
       currentTypingWord: '',
       typingState: 'waiting',
       countDownTime: defaultCountTime,
+      soundMode: 'Auto On'
     }
   }
 
@@ -132,7 +133,7 @@ class App extends React.Component {
 
   goNextWord = (isCorrect) => {
     const { typedWord, currentWord, currentWordPosition,
-      currentList, correctList, currentTypingWord, typingMode } = this.state
+      currentList, correctList, currentTypingWord, typingMode, soundMode } = this.state
 
     let newWordPosition = currentWordPosition + 1
     if (newWordPosition >= currentList.length) return
@@ -150,6 +151,9 @@ class App extends React.Component {
         currentTypingWord: '',
         currentCorrect: true,
         correctList: [...correctList, isWordCorrect],
+      }, () => {
+        if (soundMode === 'Auto On')
+          this.playSound()
       })
     } else {
       let newWord = baseSentenceList[newWordPosition]
@@ -168,6 +172,9 @@ class App extends React.Component {
   }
 
   handleStart = () => {
+    if (this.state.typingMode === 'Random Word' && this.state.soundMode === 'Auto On')
+      this.playSound()
+
     this.setState({
       typingState: 'running',
       countDownTime: defaultCountTime,
@@ -249,6 +256,11 @@ class App extends React.Component {
     this.setState({ currentTypingWord: newWord, currentCorrect: newCurrentCorrect })
   }
 
+  handleChangeSoundMode = (event) => {
+    this.setState({ soundMode: event.target.value }, () => {
+    })
+  }
+
   render() {
     const { typingMode, currentList, currentWord, currentWordPosition, typeDictionary,
       firstDisplay, correctList, currentCorrect,
@@ -260,7 +272,8 @@ class App extends React.Component {
         <FilterSection
           handleChangeMode={this.handleChangeMode}
           typingMode={typingMode}
-          handleChangeDifficult={this.handleChangeDifficult} />
+          handleChangeDifficult={this.handleChangeDifficult} 
+          handleChangeSoundMode={this.handleChangeSoundMode}/>
 
         <TypingSection
           currentList={currentList}

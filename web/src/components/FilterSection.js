@@ -32,6 +32,14 @@ const styles = theme => ({
       margin: 0,
     },
   },
+  paddingModeLabel: {
+    marginRight: 60,
+    [theme.breakpoints.down('xs')]: {
+      fontSize: 15,
+      margin: 0,
+      marginRight: 50,
+    },
+  },
   modeButton: {
     [theme.breakpoints.down('xs')]: {
       size: '10px',
@@ -74,6 +82,9 @@ const styles = theme => ({
       fontSize: 15,
     },
   },
+  soundForm: {
+    marginTop: 8
+  }
 });
 
 const difficultLevel = [
@@ -90,7 +101,7 @@ class FilterSectionCore extends React.Component {
   }
   render() {
     const { classes, handleChangeMode, typingMode,
-      handleChangeDifficult } = this.props
+      handleChangeDifficult, handleChangeSoundMode } = this.props
     let isShowDifficulty = typingMode === 'Random Word'
     return (   
         <Card className={classes.optionCard}>
@@ -108,6 +119,24 @@ class FilterSectionCore extends React.Component {
                 value='Full Sentence'
                 control={<Radio color="default" className={classes.modeButton}/>}
                 label='Full Sentence' />
+            </RadioGroup>
+          </FormControl>
+
+          {/* sound mode */}
+          <FormControl component='fieldset' className={classes.soundForm}>
+            <RadioGroup row aria-label='soundModeChoosing' name='soundModeChoosing' 
+            onChange={handleChangeSoundMode} defaultValue='Auto On'>
+              <Typography component='span' className={classes.formTitle} disabled>Sound Auto</Typography>
+              <FormControlLabel
+                className={classes.paddingModeLabel}
+                value='Auto On'
+                control={<Radio color="default" className={classes.modeButton}/>}
+                label='On' />
+              <FormControlLabel
+                className={classes.modeLabel}
+                value='Auto Off'
+                control={<Radio color="default" className={classes.modeButton}/>}
+                label='Off' />
             </RadioGroup>
           </FormControl>
 
@@ -164,7 +193,7 @@ class FilterSection extends React.Component {
     this.setState({ isExpand: newExpand })
   }
   render() {
-    const { classes, handleChangeMode, typingMode, handleChangeDifficult } = this.props
+    const { classes, handleChangeMode, typingMode, handleChangeDifficult, handleChangeSoundMode } = this.props
     return (
       <div>
         <div className={classes.optionWrapper}>
@@ -180,6 +209,7 @@ class FilterSection extends React.Component {
           <FilterSectionCore
             classes={classes}
             handleChangeMode={handleChangeMode}
+            handleChangeSoundMode={handleChangeSoundMode}
             typingMode={typingMode} 
             handleChangeDifficult={handleChangeDifficult}/>
         </Collapse>
