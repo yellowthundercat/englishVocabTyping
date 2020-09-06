@@ -101,7 +101,8 @@ class FilterSectionCore extends React.Component {
   }
   render() {
     const { classes, handleChangeMode, typingMode,
-      handleChangeDifficult, handleChangeSoundMode } = this.props
+      handleChangeDifficult, handleChangeSoundMode,
+      handleChangeTimeMode } = this.props
     let isShowDifficulty = typingMode === 'Random Word'
     return (   
         <Card className={classes.optionCard}>
@@ -119,6 +120,24 @@ class FilterSectionCore extends React.Component {
                 value='Full Sentence'
                 control={<Radio color="default" className={classes.modeButton}/>}
                 label='Full Sentence' />
+            </RadioGroup>
+          </FormControl>
+
+          {/* time mode */}
+          <FormControl component='fieldset' className={classes.soundForm}>
+            <RadioGroup row aria-label='timeModeChoosing' name='timeModeChoosing' 
+            onChange={handleChangeTimeMode} defaultValue='Unlimited'>
+              <Typography component='span' className={classes.formTitle} disabled>Time Mode</Typography>
+              <FormControlLabel
+                className={classes.paddingModeLabel}
+                value='60s'
+                control={<Radio color="default" className={classes.modeButton}/>}
+                label='60s' />
+              <FormControlLabel
+                className={classes.modeLabel}
+                value='Unlimited'
+                control={<Radio color="default" className={classes.modeButton}/>}
+                label='Unlimited' />
             </RadioGroup>
           </FormControl>
 
@@ -193,7 +212,9 @@ class FilterSection extends React.Component {
     this.setState({ isExpand: newExpand })
   }
   render() {
-    const { classes, handleChangeMode, typingMode, handleChangeDifficult, handleChangeSoundMode } = this.props
+    const { classes, handleChangeMode, typingMode, 
+      handleChangeDifficult, handleChangeSoundMode,
+      handleChangeTimeMode } = this.props
     return (
       <div>
         <div className={classes.optionWrapper}>
@@ -211,7 +232,8 @@ class FilterSection extends React.Component {
             handleChangeMode={handleChangeMode}
             handleChangeSoundMode={handleChangeSoundMode}
             typingMode={typingMode} 
-            handleChangeDifficult={handleChangeDifficult}/>
+            handleChangeDifficult={handleChangeDifficult}
+            handleChangeTimeMode={handleChangeTimeMode}/>
         </Collapse>
         </div>
       </div>

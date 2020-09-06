@@ -52,7 +52,8 @@ class App extends React.Component {
       currentTypingWord: '',
       typingState: 'waiting',
       countDownTime: defaultCountTime,
-      soundMode: 'Auto On'
+      soundMode: 'Auto On',
+      timeMode: 'Unlimited',
     }
   }
 
@@ -179,12 +180,14 @@ class App extends React.Component {
       typingState: 'running',
       countDownTime: defaultCountTime,
     })
-    this.timer = setInterval(() => {
-      let { countDownTime } = this.state
-      this.setState({ countDownTime: countDownTime - 1 })
-      if (countDownTime === 1)
-        this.handleStop();
-    }, 1000)
+    if (this.state.timeMode === '60s') {
+      this.timer = setInterval(() => {
+        let { countDownTime } = this.state
+        this.setState({ countDownTime: countDownTime - 1 })
+        if (countDownTime === 1)
+          this.handleStop();
+      }, 1000)
+    }
   }
 
   handleStop = () => {
@@ -261,10 +264,16 @@ class App extends React.Component {
     })
   }
 
+  handleChangeTimeMode = (event) => {
+    this.setState({ timeMode: event.target.value }, () => {
+      this.handleReload()
+    })
+  }
+
   render() {
     const { typingMode, currentList, currentWord, currentWordPosition, typeDictionary,
       firstDisplay, correctList, currentCorrect,
-      currentTypingWord, typingState, countDownTime
+      currentTypingWord, typingState, countDownTime, timeMode
     } = this.state
     return (
       <div>
@@ -273,7 +282,8 @@ class App extends React.Component {
           handleChangeMode={this.handleChangeMode}
           typingMode={typingMode}
           handleChangeDifficult={this.handleChangeDifficult} 
-          handleChangeSoundMode={this.handleChangeSoundMode}/>
+          handleChangeSoundMode={this.handleChangeSoundMode}
+          handleChangeTimeMode={this.handleChangeTimeMode}/>
 
         <TypingSection
           currentList={currentList}
@@ -292,6 +302,7 @@ class App extends React.Component {
           currentTypingWord={currentTypingWord}
           typingState={typingState}
           countDownTime={countDownTime}
+          timeMode={timeMode}
         />
         <DictionSection
           currentWord={currentWord}

@@ -77,7 +77,7 @@ class TypingSection extends React.Component {
   }
 
   render() {
-    const { currentList, currentWordPosition, 
+    const { currentList, currentWordPosition, timeMode,
       firstDisplay, correctList, currentCorrect,
       currentTypingWord, typingState, countDownTime,  
     } = this.props
@@ -102,6 +102,7 @@ class TypingSection extends React.Component {
           handleKeyTyping={this.handleKeyTyping}
           countDownTime={countDownTime}
           handleReload={this.props.handleReload}
+          timeMode={timeMode}
           />
       </div>
     )
