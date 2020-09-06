@@ -52,6 +52,8 @@ const styles = theme => ({
 class WordInputSection extends React.Component {
   
   generateTime = () => {
+    if (this.props.timeMode !== '60s')
+      return ''
     if (this.props.countDownTime === 60)
       return '1:00'
     if (this.props.countDownTime >= 10)
