@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "214dc9a61dea4923635d1222f75cb70a",
+    "revision": "201b9b81aadde6ff033d6cdd62888868",
     "url": "/englishVocabTyping/index.html"
   },
   {
-    "revision": "b6213b735887d506798a",
-    "url": "/englishVocabTyping/static/css/main.5ecd60fb.chunk.css"
+    "revision": "76d89d2780870abb98b8",
+    "url": "/englishVocabTyping/static/css/main.69eda509.chunk.css"
   },
   {
     "revision": "972cb683bf268718304c",
@@ -4448,12 +4448,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/englishVocabTyping/static/js/1999.faa1cb7b.chunk.js"
   },
   {
-    "revision": "cbfd986dc13b32591f52",
-    "url": "/englishVocabTyping/static/js/2.1e0ad39f.chunk.js"
+    "revision": "bbd6837fb15546465b8c",
+    "url": "/englishVocabTyping/static/js/2.5997d328.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/englishVocabTyping/static/js/2.1e0ad39f.chunk.js.LICENSE.txt"
+    "url": "/englishVocabTyping/static/js/2.5997d328.chunk.js.LICENSE.txt"
   },
   {
     "revision": "45ab20dee082c14e9be9",
@@ -19716,8 +19716,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/englishVocabTyping/static/js/999.208a8ab5.chunk.js"
   },
   {
-    "revision": "b6213b735887d506798a",
-    "url": "/englishVocabTyping/static/js/main.a4f6aa4a.chunk.js"
+    "revision": "76d89d2780870abb98b8",
+    "url": "/englishVocabTyping/static/js/main.29eb6af4.chunk.js"
   },
   {
     "revision": "621ab21f81184cce1e93",
