@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/bye.webm"],"names":["module","exports"],"mappings":"iFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/568.574a1650.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/bye.3d631a61.webm\";"],"sourceRoot":""}

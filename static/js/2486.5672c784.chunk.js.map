@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/leg.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2486.5672c784.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/leg.fabada8d.webm\";"],"sourceRoot":""}

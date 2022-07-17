@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/marriage.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2646.c6bd3f34.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/marriage.8ed0b936.webm\";"],"sourceRoot":""}

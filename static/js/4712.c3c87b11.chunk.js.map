@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/wealthy.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4712.c3c87b11.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/wealthy.e83b7ab9.webm\";"],"sourceRoot":""}

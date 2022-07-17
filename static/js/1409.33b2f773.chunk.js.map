@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/economist.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1409.33b2f773.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/economist.287beadf.webm\";"],"sourceRoot":""}

@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/gentle.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1924.988a84cd.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/gentle.b49daa03.webm\";"],"sourceRoot":""}

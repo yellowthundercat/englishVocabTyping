@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/beauty.webm"],"names":["module","exports"],"mappings":"iFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/403.211ec6af.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/beauty.8d7a885c.webm\";"],"sourceRoot":""}

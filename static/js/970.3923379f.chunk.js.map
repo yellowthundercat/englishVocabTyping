@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/coordinate.webm"],"names":["module","exports"],"mappings":"kFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/970.3923379f.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/coordinate.19c89175.webm\";"],"sourceRoot":""}

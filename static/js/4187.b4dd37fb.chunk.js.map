@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/subsidy.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4187.b4dd37fb.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/subsidy.cae824e8.webm\";"],"sourceRoot":""}

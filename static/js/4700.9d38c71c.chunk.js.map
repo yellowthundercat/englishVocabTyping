@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/warrior.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4700.9d38c71c.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/warrior.92a257de.webm\";"],"sourceRoot":""}

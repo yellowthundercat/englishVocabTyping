@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/soil.webm"],"names":["module","exports"],"mappings":"kFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4000.1c478ad7.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/soil.c4ffeb4a.webm\";"],"sourceRoot":""}

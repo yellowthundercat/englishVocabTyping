@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/peasant.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3104.6c001daa.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/peasant.b41538e4.webm\";"],"sourceRoot":""}

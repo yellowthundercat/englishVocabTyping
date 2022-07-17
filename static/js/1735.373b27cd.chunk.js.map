@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/fierce.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1735.373b27cd.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/fierce.561b0ac4.webm\";"],"sourceRoot":""}

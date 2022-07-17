@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/washing.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4702.4e1b9776.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/washing.b083981c.webm\";"],"sourceRoot":""}

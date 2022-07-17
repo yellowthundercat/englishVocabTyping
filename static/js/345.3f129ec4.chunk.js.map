@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/away.webm"],"names":["module","exports"],"mappings":"iFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/345.3f129ec4.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/away.c617131d.webm\";"],"sourceRoot":""}

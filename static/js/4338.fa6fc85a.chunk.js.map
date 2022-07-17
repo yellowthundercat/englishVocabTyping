@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/tenure.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4338.fa6fc85a.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/tenure.e45c286e.webm\";"],"sourceRoot":""}

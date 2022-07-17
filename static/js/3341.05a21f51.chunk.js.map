@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/proclaim.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3341.05a21f51.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/proclaim.4d2e1693.webm\";"],"sourceRoot":""}

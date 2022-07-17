@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/bread.webm"],"names":["module","exports"],"mappings":"iFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/514.a199272c.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/bread.3dd96cac.webm\";"],"sourceRoot":""}

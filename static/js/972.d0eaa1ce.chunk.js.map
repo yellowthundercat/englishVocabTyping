@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/coordinator.webm"],"names":["module","exports"],"mappings":"kFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/972.d0eaa1ce.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/coordinator.f3cfa9a3.webm\";"],"sourceRoot":""}

@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/coal.webm"],"names":["module","exports"],"mappings":"iFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/748.99891a1b.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/coal.9e81da24.webm\";"],"sourceRoot":""}

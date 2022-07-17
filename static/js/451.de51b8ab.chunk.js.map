@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/birth.webm"],"names":["module","exports"],"mappings":"iFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/451.de51b8ab.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/birth.c92fae3a.webm\";"],"sourceRoot":""}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/hungry.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2138.9b87d947.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/hungry.065887a4.webm\";"],"sourceRoot":""}

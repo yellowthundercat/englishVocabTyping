@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/hand.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2021.9a975b31.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/hand.c3d62e8c.webm\";"],"sourceRoot":""}

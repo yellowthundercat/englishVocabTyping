@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/presidency.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3289.442fecb0.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/presidency.eecc5772.webm\";"],"sourceRoot":""}

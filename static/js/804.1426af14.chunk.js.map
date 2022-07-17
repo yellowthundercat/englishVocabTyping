@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/communist.webm"],"names":["module","exports"],"mappings":"kFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/804.1426af14.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/communist.e11ce5a4.webm\";"],"sourceRoot":""}

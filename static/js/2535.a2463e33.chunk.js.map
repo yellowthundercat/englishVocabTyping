@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/linger.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2535.a2463e33.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/linger.1331edfe.webm\";"],"sourceRoot":""}

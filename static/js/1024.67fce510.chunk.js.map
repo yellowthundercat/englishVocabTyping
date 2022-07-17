@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/crash.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1024.67fce510.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/crash.8fe03347.webm\";"],"sourceRoot":""}

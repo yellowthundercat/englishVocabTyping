@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/brief.webm"],"names":["module","exports"],"mappings":"iFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/527.b46c06b1.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/brief.a10dfe8d.webm\";"],"sourceRoot":""}

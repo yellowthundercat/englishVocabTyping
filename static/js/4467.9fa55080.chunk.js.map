@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/trail.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4467.9fa55080.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/trail.3ede89ad.webm\";"],"sourceRoot":""}

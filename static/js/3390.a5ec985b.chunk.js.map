@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/protest.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3390.a5ec985b.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/protest.01bcd137.webm\";"],"sourceRoot":""}

@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/chemistry.webm"],"names":["module","exports"],"mappings":"iFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/680.d192dafb.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/chemistry.efed024a.webm\";"],"sourceRoot":""}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/frankly.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1849.c739ee24.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/frankly.cef39389.webm\";"],"sourceRoot":""}

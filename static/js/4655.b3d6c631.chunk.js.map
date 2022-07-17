@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/viewpoint.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4655.b3d6c631.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/viewpoint.fd53424a.webm\";"],"sourceRoot":""}

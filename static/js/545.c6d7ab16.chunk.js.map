@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/buddy.webm"],"names":["module","exports"],"mappings":"iFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/545.c6d7ab16.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/buddy.308d02b5.webm\";"],"sourceRoot":""}

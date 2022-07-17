@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/vessel.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4643.680d4fd9.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/vessel.4235925c.webm\";"],"sourceRoot":""}

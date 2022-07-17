@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/opera.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2968.15d1a1ca.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/opera.21f26205.webm\";"],"sourceRoot":""}

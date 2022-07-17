@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/vacation.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4614.075c9405.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/vacation.192060e7.webm\";"],"sourceRoot":""}

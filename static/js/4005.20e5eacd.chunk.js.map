@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/solicitor.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4005.20e5eacd.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/solicitor.c1a12cc9.webm\";"],"sourceRoot":""}

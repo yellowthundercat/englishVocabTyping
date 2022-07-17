@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/fortune.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1831.9d1f6f5b.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/fortune.d194f0d2.webm\";"],"sourceRoot":""}

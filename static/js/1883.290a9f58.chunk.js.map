@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/fund.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1883.290a9f58.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/fund.959a137b.webm\";"],"sourceRoot":""}

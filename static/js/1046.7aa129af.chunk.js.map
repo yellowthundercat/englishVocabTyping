@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/criticism.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1046.7aa129af.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/criticism.01f190e1.webm\";"],"sourceRoot":""}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/opposite.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2978.e560f186.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/opposite.e01b9a55.webm\";"],"sourceRoot":""}

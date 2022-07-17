@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/institute.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2293.b5439e27.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/institute.a59f3fbd.webm\";"],"sourceRoot":""}

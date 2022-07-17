@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/translate.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4480.032c640f.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/translate.99fdfaa8.webm\";"],"sourceRoot":""}

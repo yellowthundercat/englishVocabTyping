@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/glove.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1947.43ce6cc0.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/glove.014cb403.webm\";"],"sourceRoot":""}

@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/industrial.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2233.177c4fdb.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/industrial.71d31637.webm\";"],"sourceRoot":""}

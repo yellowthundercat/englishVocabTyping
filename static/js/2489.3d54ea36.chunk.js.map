@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/legend.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2489.3d54ea36.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/legend.ac57f701.webm\";"],"sourceRoot":""}

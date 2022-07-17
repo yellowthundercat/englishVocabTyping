@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/shoulder.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3901.ab5db327.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/shoulder.6cd0b1a9.webm\";"],"sourceRoot":""}

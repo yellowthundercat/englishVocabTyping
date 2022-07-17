@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/warehouse.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4693.98a5ddac.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/warehouse.73bcda5a.webm\";"],"sourceRoot":""}

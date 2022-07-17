@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/squad.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4088.c48144ad.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/squad.87729d0e.webm\";"],"sourceRoot":""}

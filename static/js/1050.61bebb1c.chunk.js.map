@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/cross.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1050.61bebb1c.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/cross.92871616.webm\";"],"sourceRoot":""}

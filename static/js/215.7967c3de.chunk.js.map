@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/apartment.webm"],"names":["module","exports"],"mappings":"iFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/215.7967c3de.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/apartment.ff457599.webm\";"],"sourceRoot":""}

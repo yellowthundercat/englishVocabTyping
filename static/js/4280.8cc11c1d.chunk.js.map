@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/sympathy.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4280.8cc11c1d.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/sympathy.6b917a6f.webm\";"],"sourceRoot":""}

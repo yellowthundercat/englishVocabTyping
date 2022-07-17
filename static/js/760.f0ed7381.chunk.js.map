@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/cold.webm"],"names":["module","exports"],"mappings":"iFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/760.f0ed7381.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/cold.b734fa95.webm\";"],"sourceRoot":""}

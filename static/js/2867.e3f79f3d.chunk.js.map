@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/news.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2867.e3f79f3d.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/news.8b364935.webm\";"],"sourceRoot":""}

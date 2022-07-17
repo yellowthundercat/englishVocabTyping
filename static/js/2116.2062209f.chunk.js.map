@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/horse.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2116.2062209f.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/horse.f5ce3b5d.webm\";"],"sourceRoot":""}

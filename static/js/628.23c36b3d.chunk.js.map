@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/caution.webm"],"names":["module","exports"],"mappings":"iFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/628.23c36b3d.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/caution.3734a03f.webm\";"],"sourceRoot":""}

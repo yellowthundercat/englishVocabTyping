@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/spicy.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4063.3cb0099d.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/spicy.316b01fd.webm\";"],"sourceRoot":""}

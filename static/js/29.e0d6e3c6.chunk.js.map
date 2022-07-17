@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/accommodate.webm"],"names":["module","exports"],"mappings":"gFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/29.e0d6e3c6.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/accommodate.f1746f79.webm\";"],"sourceRoot":""}

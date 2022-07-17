@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/obligation.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2924.a1ee951d.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/obligation.d6d509c7.webm\";"],"sourceRoot":""}

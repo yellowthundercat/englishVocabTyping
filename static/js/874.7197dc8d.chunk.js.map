@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/conflict.webm"],"names":["module","exports"],"mappings":"kFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/874.7197dc8d.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/conflict.b0009351.webm\";"],"sourceRoot":""}

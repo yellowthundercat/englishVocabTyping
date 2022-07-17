@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/camera.webm"],"names":["module","exports"],"mappings":"iFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/578.9ed46e86.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/camera.26ea3fbf.webm\";"],"sourceRoot":""}

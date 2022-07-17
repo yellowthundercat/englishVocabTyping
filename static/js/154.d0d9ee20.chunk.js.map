@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/allowance.webm"],"names":["module","exports"],"mappings":"iFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/154.d0d9ee20.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/allowance.cf6bf114.webm\";"],"sourceRoot":""}

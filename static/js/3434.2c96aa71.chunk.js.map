@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/queen.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3434.2c96aa71.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/queen.56b4f690.webm\";"],"sourceRoot":""}

@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/university.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4581.fee048a7.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/university.f477989b.webm\";"],"sourceRoot":""}

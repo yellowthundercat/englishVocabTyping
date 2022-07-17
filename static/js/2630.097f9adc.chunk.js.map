@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/manner.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2630.097f9adc.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/manner.17f4c1a1.webm\";"],"sourceRoot":""}

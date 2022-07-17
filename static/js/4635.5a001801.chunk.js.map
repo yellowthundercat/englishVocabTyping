@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/venue.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4635.5a001801.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/venue.28b7ab00.webm\";"],"sourceRoot":""}

@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/hero.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2074.5bc6c375.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/hero.55a774f8.webm\";"],"sourceRoot":""}

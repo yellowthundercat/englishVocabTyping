@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/residence.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3630.4465071b.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/residence.c65f222c.webm\";"],"sourceRoot":""}

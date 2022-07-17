@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/magnificent.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2605.b1721e96.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/magnificent.4bba5b73.webm\";"],"sourceRoot":""}

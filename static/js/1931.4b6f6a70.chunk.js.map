@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/ghost.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1931.4b6f6a70.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/ghost.f41054b9.webm\";"],"sourceRoot":""}

@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/pose.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3226.82671365.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/pose.d21cdd27.webm\";"],"sourceRoot":""}

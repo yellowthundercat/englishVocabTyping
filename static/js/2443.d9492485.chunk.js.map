@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/landscape.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2443.d9492485.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/landscape.fa51c213.webm\";"],"sourceRoot":""}

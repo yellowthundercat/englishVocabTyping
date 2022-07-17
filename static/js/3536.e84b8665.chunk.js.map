@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/referendum.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3536.e84b8665.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/referendum.7f969949.webm\";"],"sourceRoot":""}

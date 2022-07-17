@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/nose.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2896.f49fcd8d.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/nose.e5b58cde.webm\";"],"sourceRoot":""}

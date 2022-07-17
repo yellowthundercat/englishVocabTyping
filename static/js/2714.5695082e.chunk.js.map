@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/metal.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2714.5695082e.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/metal.9e4b086d.webm\";"],"sourceRoot":""}

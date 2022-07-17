@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/province.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3396.7c6eedec.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/province.ee6e01f8.webm\";"],"sourceRoot":""}

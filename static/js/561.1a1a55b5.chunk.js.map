@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/bush.webm"],"names":["module","exports"],"mappings":"iFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/561.1a1a55b5.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/bush.d47f2aeb.webm\";"],"sourceRoot":""}

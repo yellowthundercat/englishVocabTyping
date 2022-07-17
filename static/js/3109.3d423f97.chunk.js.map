@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/pencil.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3109.3d423f97.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/pencil.d4084708.webm\";"],"sourceRoot":""}

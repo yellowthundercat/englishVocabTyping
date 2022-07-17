@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/notably.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2898.c6a4a9e4.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/notably.2f1375c6.webm\";"],"sourceRoot":""}

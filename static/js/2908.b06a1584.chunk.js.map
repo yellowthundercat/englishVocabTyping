@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/november.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2908.b06a1584.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/november.477ea5cc.webm\";"],"sourceRoot":""}

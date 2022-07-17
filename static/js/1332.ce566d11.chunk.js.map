@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/doctor.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1332.ce566d11.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/doctor.707ba082.webm\";"],"sourceRoot":""}

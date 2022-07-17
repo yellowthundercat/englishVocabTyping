@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/settler.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3851.4f93f449.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/settler.5e666f00.webm\";"],"sourceRoot":""}

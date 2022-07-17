@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/shopping.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3894.ab488cda.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/shopping.715163b4.webm\";"],"sourceRoot":""}

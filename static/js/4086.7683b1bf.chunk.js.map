@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/spring.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4086.7683b1bf.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/spring.af4e157d.webm\";"],"sourceRoot":""}

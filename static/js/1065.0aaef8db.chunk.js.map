@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/culture.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1065.0aaef8db.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/culture.1639bb60.webm\";"],"sourceRoot":""}

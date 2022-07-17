@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/ego.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1430.672c8188.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/ego.31f9690f.webm\";"],"sourceRoot":""}

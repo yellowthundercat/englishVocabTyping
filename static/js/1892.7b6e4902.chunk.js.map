@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/furniture.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1892.7b6e4902.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/furniture.2fcc8f1f.webm\";"],"sourceRoot":""}

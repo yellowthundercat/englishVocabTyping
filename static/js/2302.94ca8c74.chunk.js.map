@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/insult.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2302.94ca8c74.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/insult.f2609563.webm\";"],"sourceRoot":""}

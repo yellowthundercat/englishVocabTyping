@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/doctrine.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1333.28407145.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/doctrine.87881255.webm\";"],"sourceRoot":""}

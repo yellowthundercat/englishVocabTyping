@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/swallow.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4267.aa4a8175.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/swallow.9440868e.webm\";"],"sourceRoot":""}

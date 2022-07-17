@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/residue.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3633.f8a1380f.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/residue.9ef3a9b2.webm\";"],"sourceRoot":""}

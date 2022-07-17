@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/grass.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1977.ac2fe6fd.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/grass.97a9235a.webm\";"],"sourceRoot":""}

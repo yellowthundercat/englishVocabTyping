@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/novel.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2906.1b368259.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/novel.9d70735a.webm\";"],"sourceRoot":""}

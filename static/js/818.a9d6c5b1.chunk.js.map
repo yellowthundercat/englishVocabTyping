@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/competence.webm"],"names":["module","exports"],"mappings":"kFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/818.a9d6c5b1.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/competence.5f3c2a6e.webm\";"],"sourceRoot":""}

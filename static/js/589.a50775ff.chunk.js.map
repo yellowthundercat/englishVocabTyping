@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/canvas.webm"],"names":["module","exports"],"mappings":"iFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/589.a50775ff.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/canvas.c0cc804e.webm\";"],"sourceRoot":""}

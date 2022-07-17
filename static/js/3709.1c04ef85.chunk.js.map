@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/roof.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3709.1c04ef85.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/roof.691a9a3b.webm\";"],"sourceRoot":""}

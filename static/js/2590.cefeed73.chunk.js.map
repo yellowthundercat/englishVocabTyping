@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/loyalty.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2590.cefeed73.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/loyalty.af815ecf.webm\";"],"sourceRoot":""}

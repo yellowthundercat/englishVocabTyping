@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/wage.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4683.bfd67a7f.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/wage.5cb61da2.webm\";"],"sourceRoot":""}

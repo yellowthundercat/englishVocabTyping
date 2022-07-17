@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/profound.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3354.63b28a89.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/profound.074db955.webm\";"],"sourceRoot":""}

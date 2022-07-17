@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/shall.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3865.c358ebe6.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/shall.5c8528dc.webm\";"],"sourceRoot":""}

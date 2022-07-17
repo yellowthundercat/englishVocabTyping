@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/novelist.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2907.7d469d79.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/novelist.c7d67183.webm\";"],"sourceRoot":""}

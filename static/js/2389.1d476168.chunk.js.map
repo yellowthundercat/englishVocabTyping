@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/journalism.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2389.1d476168.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/journalism.6b3eea80.webm\";"],"sourceRoot":""}

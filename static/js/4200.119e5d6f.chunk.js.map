@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/succession.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4200.119e5d6f.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/succession.3e2441e7.webm\";"],"sourceRoot":""}

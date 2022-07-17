@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/expedition.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1628.e5adcab6.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/expedition.1047d781.webm\";"],"sourceRoot":""}

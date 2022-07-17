@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/bass.webm"],"names":["module","exports"],"mappings":"iFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/388.2dc94c09.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/bass.40de5107.webm\";"],"sourceRoot":""}

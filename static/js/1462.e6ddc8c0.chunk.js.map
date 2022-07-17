@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/embassy.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1462.e6ddc8c0.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/embassy.48f2b3c2.webm\";"],"sourceRoot":""}

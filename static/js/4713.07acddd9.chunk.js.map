@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/weapon.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4713.07acddd9.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/weapon.a82f4391.webm\";"],"sourceRoot":""}

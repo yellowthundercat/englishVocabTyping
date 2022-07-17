@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/syndrome.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4282.c09b9491.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/syndrome.b1f57413.webm\";"],"sourceRoot":""}

@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/brave.webm"],"names":["module","exports"],"mappings":"iFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/512.20dd16fc.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/brave.2590e0a6.webm\";"],"sourceRoot":""}

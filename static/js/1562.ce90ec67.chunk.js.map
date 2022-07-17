@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/ethic.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1562.ce90ec67.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/ethic.ea65bc02.webm\";"],"sourceRoot":""}

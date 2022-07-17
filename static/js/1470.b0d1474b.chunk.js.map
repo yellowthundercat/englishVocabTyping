@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/emotion.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1470.b0d1474b.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/emotion.3160015f.webm\";"],"sourceRoot":""}

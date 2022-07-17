@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/folding.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1798.c3677151.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/folding.b44427bc.webm\";"],"sourceRoot":""}

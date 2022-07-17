@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/inclined.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2205.e13755ad.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/inclined.75a6b3ec.webm\";"],"sourceRoot":""}

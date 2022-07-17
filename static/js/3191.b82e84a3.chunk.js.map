@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/plenty.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3191.b82e84a3.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/plenty.1b5a9334.webm\";"],"sourceRoot":""}

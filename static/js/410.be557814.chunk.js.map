@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/beg.webm"],"names":["module","exports"],"mappings":"iFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/410.be557814.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/beg.b36e77b8.webm\";"],"sourceRoot":""}

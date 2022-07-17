@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/spine.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4067.5484da28.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/spine.41527017.webm\";"],"sourceRoot":""}

@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/festival.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1730.b441fc8b.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/festival.dd72e7da.webm\";"],"sourceRoot":""}

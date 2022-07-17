@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/coin.webm"],"names":["module","exports"],"mappings":"iFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/757.69a5b8d7.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/coin.032aa4b5.webm\";"],"sourceRoot":""}

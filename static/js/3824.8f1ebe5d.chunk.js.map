@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/senator.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3824.8f1ebe5d.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/senator.a4d6c7f5.webm\";"],"sourceRoot":""}

@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/murder.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2812.14910f8f.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/murder.f2e50956.webm\";"],"sourceRoot":""}

@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/trait.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/4472.fd14c42e.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/trait.15ec5273.webm\";"],"sourceRoot":""}

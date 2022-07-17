@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/endorsement.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1495.37fb230f.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/endorsement.23771d87.webm\";"],"sourceRoot":""}

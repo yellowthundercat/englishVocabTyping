@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/psychology.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3403.00b2b5a2.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/psychology.a1661406.webm\";"],"sourceRoot":""}

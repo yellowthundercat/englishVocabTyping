@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/fellow.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1726.35566bc3.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/fellow.a951fe71.webm\";"],"sourceRoot":""}

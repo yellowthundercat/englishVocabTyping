@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/collaboration.webm"],"names":["module","exports"],"mappings":"iFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/762.365e0e83.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/collaboration.0680fae1.webm\";"],"sourceRoot":""}

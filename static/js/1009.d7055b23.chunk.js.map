@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/countryside.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1009.d7055b23.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/countryside.f3c651ed.webm\";"],"sourceRoot":""}

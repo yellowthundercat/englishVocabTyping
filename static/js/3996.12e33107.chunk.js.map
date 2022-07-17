@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/society.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3996.12e33107.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/society.5794c59d.webm\";"],"sourceRoot":""}

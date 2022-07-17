@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/chairman.webm"],"names":["module","exports"],"mappings":"iFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/649.b98946d2.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/chairman.8e8af567.webm\";"],"sourceRoot":""}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/socialist.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3995.251f2f50.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/socialist.171bee52.webm\";"],"sourceRoot":""}

@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/indoor.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2229.056093d0.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/indoor.86b74242.webm\";"],"sourceRoot":""}

@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/handful.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/2022.7d17001f.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/handful.a0655087.webm\";"],"sourceRoot":""}

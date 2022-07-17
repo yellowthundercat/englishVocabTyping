@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/constituency.webm"],"names":["module","exports"],"mappings":"kFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/911.d1d2c201.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/constituency.20135a2d.webm\";"],"sourceRoot":""}

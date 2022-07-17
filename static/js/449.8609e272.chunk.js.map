@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/biology.webm"],"names":["module","exports"],"mappings":"iFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/449.8609e272.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/biology.aac35b99.webm\";"],"sourceRoot":""}

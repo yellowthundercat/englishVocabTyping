@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/attorney.webm"],"names":["module","exports"],"mappings":"iFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/317.452c02f2.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/attorney.7cd5512c.webm\";"],"sourceRoot":""}

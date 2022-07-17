@@ -1,1 +1,0 @@
-{"version":3,"sources":["static/soundWebm/recycle.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/3529.e28f84eb.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/recycle.2fb7249b.webm\";"],"sourceRoot":""}

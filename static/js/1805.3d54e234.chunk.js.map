@@ -1,0 +1,1 @@
+{"version":3,"sources":["static/soundWebm/foot.webm"],"names":["module","exports"],"mappings":"mFAAAA,EAAOC,QAAU,IAA0B","file":"static/js/1805.3d54e234.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/foot.714f3f20.webm\";"],"sourceRoot":""}
