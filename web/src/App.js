@@ -25,7 +25,7 @@ db.version(1).stores({
   sounds: "word"
 });
 
-const audioPoolStack = [new Audio()]
+const audioPoolQueue = [new Audio(), new Audio()]
 
 const baseListFull = {}
 a1ListFull.forEach((word) => { baseListFull[word.word] = word })
@@ -172,7 +172,7 @@ class App extends React.Component {
       }, () => {
         if (soundMode === 'Auto On') {
           this.playSound()
-          // this.preLoadSound(newWordPosition + 1)
+          this.preLoadSound(newWordPosition + 1)
         }
       })
     } else {
@@ -239,13 +239,13 @@ class App extends React.Component {
       return
     }
     let blobUrl = URL.createObjectURL(blob)
-    if (audioPoolStack.length === 0) {
-      audioPoolStack.push(new Audio())
+    if (audioPoolQueue.length <= 1) {
+      audioPoolQueue.push(new Audio())
     }
-    let audio = audioPoolStack.pop()
+    let audio = audioPoolQueue.shift()
     audio.src = blobUrl
     await audio.play()
-    audioPoolStack.push(audio)
+    audioPoolQueue.push(audio)
   }
 
   playSound = async (targetedWord = null, isSilenceMode = false) => {
