@@ -1,4 +1,5 @@
 import React from 'react';
+import Dexie from 'dexie';
 
 import Title from './components/Title'
 import TypingSection from './components/TypingSection'
@@ -18,6 +19,13 @@ import b2List from './static/b2-onlyWord.json'
 import c1List from './static/c1-onlyWord.json'
 
 import convertObjectToArray from './helper/helper'
+
+const db = new Dexie("SoundDatabase");
+db.version(1).stores({
+  sounds: "word"
+});
+
+const audioPoolStack = [new Audio()]
 
 const baseListFull = {}
 a1ListFull.forEach((word) => { baseListFull[word.word] = word })
@@ -61,8 +69,9 @@ class App extends React.Component {
     this.generateListWord();
   }
 
-  getRandomWord = (start, end = null) => {
-    let isAcceptDuplicate = Math.floor(Math.random() * 3)
+  getRandomWord = (start, end = null) => { // end = null means end = start -> current difficult level
+    // let isAcceptDuplicate = Math.floor(Math.random() * 3)
+    let isAcceptDuplicate = 1
     let newWord = 'across'
     if (end === null) {
       newWord = baseList[start][Math.floor(Math.random() * baseList[start].length)]
@@ -91,6 +100,7 @@ class App extends React.Component {
       newListWord.push(newWord)
     }
     this.setState({ currentList: newListWord, currentWordPosition: 0, currentWord: baseListFull[newListWord[0]] })
+    this.preLoadSound(0)
   }
 
   getRandomSentence = (sentenceList, usedPosition) => {
@@ -132,6 +142,13 @@ class App extends React.Component {
     })
   }
 
+  preLoadSound = (position) => {
+    const { currentList } = this.state
+    if (position >= currentList.length) return
+    let newWord = baseListFull[currentList[position]]
+    this.playSound(newWord.word, true) // load but not play
+  }
+
   goNextWord = (isCorrect) => {
     const { typedWord, currentWord, currentWordPosition,
       currentList, correctList, currentTypingWord, typingMode, soundMode } = this.state
@@ -153,8 +170,10 @@ class App extends React.Component {
         currentCorrect: true,
         correctList: [...correctList, isWordCorrect],
       }, () => {
-        if (soundMode === 'Auto On')
+        if (soundMode === 'Auto On') {
           this.playSound()
+          // this.preLoadSound(newWordPosition + 1)
+        }
       })
     } else {
       let newWord = baseSentenceList[newWordPosition]
@@ -215,15 +234,40 @@ class App extends React.Component {
     })
   }
 
-  playSound = () => {
+  playSoundBlob = async (blob, isSilenceMode) => {
+    if (isSilenceMode) { // just for pre-download
+      return
+    }
+    let blobUrl = URL.createObjectURL(blob)
+    if (audioPoolStack.length === 0) {
+      audioPoolStack.push(new Audio())
+    }
+    let audio = audioPoolStack.pop()
+    audio.src = blobUrl
+    await audio.play()
+    audioPoolStack.push(audio)
+  }
+
+  playSound = async (targetedWord = null, isSilenceMode = false) => {
     const { currentWord } = this.state
-    if (currentWord && currentWord.word) {
-      import(`./static/soundWebm/${currentWord.word}.webm`).then(soundModule => {
-        if (soundModule && soundModule.default) {
-          let audio = new Audio(soundModule.default)
-          audio.play()
-        }
-      })
+    let word = targetedWord || currentWord.word
+    if (word) {
+      const cachedSound = await db.sounds.get(word)
+      if (cachedSound && cachedSound.soundBlob) {
+        let blob = cachedSound.soundBlob
+        this.playSoundBlob(blob, isSilenceMode)
+        return 
+      }
+
+      // fetch network when cached sound is not existed
+      let soundModule = await import(`./static/soundWebm/${word}.webm`)
+      if (soundModule && soundModule.default) {
+        let res = await fetch(soundModule.default)
+        let data = await res.body.getReader().read()
+        let blob = new Blob([data.value], { type: "audio/webm" })
+        this.playSoundBlob(blob, isSilenceMode)
+        db.sounds.put({word: word, soundBlob: blob})
+      }
     }
   }
 
