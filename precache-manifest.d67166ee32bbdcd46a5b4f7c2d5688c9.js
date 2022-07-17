@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1696354c2f341f458bfd9f9296314506",
+    "revision": "8f05069aa233779c19c55e4990373255",
     "url": "/englishVocabTyping/index.html"
   },
   {
-    "revision": "407fd1f6753d7ef5ddea",
+    "revision": "eba5c3690c04437de130",
     "url": "/englishVocabTyping/static/css/main.69eda509.chunk.css"
   },
   {
@@ -19716,8 +19716,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/englishVocabTyping/static/js/999.8eea4d8a.chunk.js"
   },
   {
-    "revision": "407fd1f6753d7ef5ddea",
-    "url": "/englishVocabTyping/static/js/main.754b81ab.chunk.js"
+    "revision": "eba5c3690c04437de130",
+    "url": "/englishVocabTyping/static/js/main.3112c476.chunk.js"
   },
   {
     "revision": "c398392122fff6483a8f",
