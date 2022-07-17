@@ -19,9 +19,9 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "/",
+  "start_url": "https://yellowthundercat.github.io/englishVocabTyping/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff",
-  "scope": "/"
+  "scope": "https://yellowthundercat.github.io/englishVocabTyping/"
 }
