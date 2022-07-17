@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/englishVocabTyping/static/css/main.69eda509.chunk.css",
-    "main.js": "/englishVocabTyping/static/js/main.d3dc51cc.chunk.js",
-    "main.js.map": "/englishVocabTyping/static/js/main.d3dc51cc.chunk.js.map",
+    "main.js": "/englishVocabTyping/static/js/main.754b81ab.chunk.js",
+    "main.js.map": "/englishVocabTyping/static/js/main.754b81ab.chunk.js.map",
     "runtime-main.js": "/englishVocabTyping/static/js/runtime-main.cb3859ec.js",
     "runtime-main.js.map": "/englishVocabTyping/static/js/runtime-main.cb3859ec.js.map",
     "static/js/2.4c8cd215.chunk.js": "/englishVocabTyping/static/js/2.4c8cd215.chunk.js",
@@ -9858,7 +9858,7 @@
     "static/js/4927.c6066811.chunk.js": "/englishVocabTyping/static/js/4927.c6066811.chunk.js",
     "static/js/4927.c6066811.chunk.js.map": "/englishVocabTyping/static/js/4927.c6066811.chunk.js.map",
     "index.html": "/englishVocabTyping/index.html",
-    "precache-manifest.c71b4292d81f89ac32110b450619cfb2.js": "/englishVocabTyping/precache-manifest.c71b4292d81f89ac32110b450619cfb2.js",
+    "precache-manifest.27a514b2fbc52cb4bfae9a9684ab48b8.js": "/englishVocabTyping/precache-manifest.27a514b2fbc52cb4bfae9a9684ab48b8.js",
     "service-worker.js": "/englishVocabTyping/service-worker.js",
     "static/css/main.69eda509.chunk.css.map": "/englishVocabTyping/static/css/main.69eda509.chunk.css.map",
     "static/js/2.4c8cd215.chunk.js.LICENSE.txt": "/englishVocabTyping/static/js/2.4c8cd215.chunk.js.LICENSE.txt",
@@ -14692,6 +14692,6 @@
     "static/js/runtime-main.cb3859ec.js",
     "static/js/2.4c8cd215.chunk.js",
     "static/css/main.69eda509.chunk.css",
-    "static/js/main.d3dc51cc.chunk.js"
+    "static/js/main.754b81ab.chunk.js"
   ]
 }
